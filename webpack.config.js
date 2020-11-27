@@ -1,9 +1,9 @@
 module.exports = {
     mode: 'production', // development or production
-    entry: './src/ts/script.ts',
+    entry: './src/ts/index.ts',
     output: {
         path: `${__dirname}/dest/js`,
-        filename: "script.js"
+        filename: "main.js"
       },
     module: {
       rules: [

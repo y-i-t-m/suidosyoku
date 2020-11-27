@@ -16,6 +16,21 @@ body a {
 }
 
 /***** block *****/
+/* footer */
+.footer {
+  width: 100%;
+  max-width: 1000px;
+  padding: 0 20px;
+  margin: 0 auto;
+  padding: 20px 0;
+  border-top: 1px solid #ccc;
+  text-align: center;
+}
+
+.footer__test {
+  font-size: 0.8em;
+}
+
 /* header */
 .header {
   width: 100%;
@@ -32,23 +47,6 @@ body a {
   margin: 0;
   color: #fff;
   text-shadow: 0 0 20px #000;
-}
-
-/* main */
-.main {
-  width: 100%;
-  max-width: 1000px;
-  padding: 0 20px;
-  margin: 0 auto;
-}
-
-.main__title {
-  color: #333;
-  font-size: 2em;
-}
-
-.main__lede {
-  font-size: 1em;
 }
 
 /* inner */
@@ -103,17 +101,19 @@ body a {
   outline: none;
 }
 
-/* footer */
-.footer {
+/* main */
+.main {
   width: 100%;
   max-width: 1000px;
   padding: 0 20px;
   margin: 0 auto;
-  padding: 20px 0;
-  border-top: 1px solid #ccc;
-  text-align: center;
 }
 
-.footer__test {
-  font-size: 0.8em;
+.main__title {
+  color: #333;
+  font-size: 2em;
+}
+
+.main__lede {
+  font-size: 1em;
 }
