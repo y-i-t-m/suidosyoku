@@ -1,42 +1,24 @@
 <!doctype html>
-<html>
+<html lang="ja" prefix="og: http://ogp.me/ns#">
 <head>
-<meta charset="UTF-8">
-<title>メタ言語同時コンパイル（EJS、Sass(SCSS)、TypeScript）</title>
-<meta name="description" content="HTMLテンプレートエンジンとAltCSSとALtJSを同時にコンパイルする！！">
-<link rel="stylesheet" href="css/style.css">
-<script src="js/script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <title>大阪水道職人</title>
+    <meta name="description" content="大阪水道職人のテキストが入ります。">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="大阪水道職人">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:site_name" content="大阪水道職人">
+    <meta property="og:description" content="大阪水道職人のテキストが入ります。">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
 </head>
 <body>
-<header class="header">
-    <h1 class="header__title">クモのようにコツコツと 〜別館〜</h1>
-    <p class="header__text">イイダリョウのメタ言語実験室！！！！！</p>
-</header>
-<main>
-    <section id="scss" class="main">
-        <h1 class="main__title">メタ言語同時コンパイル（EJS、Sass(SCSS)、TypeScript）</h1>
-        <p class="main__lede">HTMLテンプレートエンジンとAltCSSとALtJSを同時にコンパイルする！！</p>
-    <section id="nest" class="inner">
-        <h2 class="inner__title">EJSでJSONデータを読み込む</h2>
-        <p class="inner__text">コンテンツ部分を外部のJSONデータから読み込むことができる。<br>gulpfile.jsでfsモジュールを使って設定している。</p>
-    </section>	
-    <section id="nest" class="inner">
-        <h2 class="inner__title">Sass(SCSS)のネスト（階層化）</h2>
-        <p class="inner__text">SCSSもdivのネストの階層化ができる。この段落は<em class='inner__text-em'>ネスト</em>でスタイルを当てている。<br>ん？この書き方はLESSとほぼまったく同じだ。<br><span class='inner__text--bikou'>インデントについても厳密でじゃでなくても解釈してくれるようだ（？）</span></p>
-    </section>	
-    <section id="nest" class="inner">
-        <h2 class="inner__title">Sass(SCSS)の親セレクタ参照</h2>
-        <p class="inner__text">おそらくLESSにはないSCSS専用の機能。ネストして「&」に擬似要素を付けると親セレクタを参照できる<br><span  class='inner__text-bikou'>この尾行欄につけている「※」印は「.bikou:before」ではなく「&:before」だけで済んでいる。 </span></p>
-    </section>	
-    <section id="nest" class="inner">
-        <h2 class="inner__title">TypeScriptで作ったおみくじ</h2>
-        <p class="inner__text"><button class='inner__text-btn'>おみくじを引く！</button></p>
-    </section>	
-        <p class="main__text"><a href="other.html" class="main__text-link">別ページへ</a></p>
-    </section>
-</main>
+<header></header>
 <footer class="footer">
-    <p class="footer__text">© 2020 イイダリョウ</p>
+    <p class="footer__text"><small>© 2020 大阪水道職人</small></p>
 </footer>
 </body>
 </html>
