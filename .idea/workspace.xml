@@ -20,24 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f23cb06a-fd2c-4595-9860-9d2299425905" name="デフォルト変更リスト" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dest/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dest/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dest/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dest/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dest/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dest/js/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejs/base/_head.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejs/base/_head.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejs/block/_header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejs/block/_header.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejs/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejs/index.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/json/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/json/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/base/_base.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/block/_footer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/block/_header.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/block/_inner.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/block/_main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/setting/_mixin.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/setting/_variable.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ts/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ts/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +104,7 @@
       <workItem from="1606461144904" duration="200000" />
       <workItem from="1606461650901" duration="692000" />
       <workItem from="1606462642853" duration="8249000" />
-      <workItem from="1606476108080" duration="5353000" />
+      <workItem from="1606476108080" duration="5378000" />
     </task>
     <servers />
   </component>
