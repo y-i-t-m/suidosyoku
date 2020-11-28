@@ -1,7 +1,8 @@
-@import 'setting/**';
+@import 'foundation/**';
+@import "reset";
+
+@import "layout/**";
+@import "object/**";
+@import "utility/**";
 
 /***** base *****/
-@import 'base/**';
-
-/***** block *****/
-@import 'block/**';
