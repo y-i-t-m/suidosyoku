@@ -99,7 +99,7 @@ const minifyImage = (done) => {
   gulp.src(srcImgFiles + srcImgFileType)
   .pipe(imagemin(
     [
-      pngquant({quality: '65-80', speed: 1}),
+      pngquant({quality:[ 0.65, 0.8 ], speed: 1}),
       mozjpeg({quality: 80}),
       imagemin.svgo(),
       imagemin.gifsicle()
