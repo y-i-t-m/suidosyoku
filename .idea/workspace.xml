@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f23cb06a-fd2c-4595-9860-9d2299425905" name="デフォルト変更リスト" comment="">
+      <change afterPath="$PROJECT_DIR$/src/img/osaka_mainvisual.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -104,8 +105,16 @@
       <workItem from="1606461144904" duration="200000" />
       <workItem from="1606461650901" duration="692000" />
       <workItem from="1606462642853" duration="8249000" />
-      <workItem from="1606476108080" duration="5378000" />
+      <workItem from="1606476108080" duration="5900000" />
     </task>
+    <task id="LOCAL-00001" summary="あ">
+      <created>1606543726016</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606543726016</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,12 +133,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="あ" />
+    <option name="LAST_COMMIT_MESSAGE" value="あ" />
   </component>
   <component name="WindowStateProjectService">
     <state x="429" y="243" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606486339383">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="429" y="243" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1606486339383" />
+    <state x="144" y="79" key="DiffContextDialog" timestamp="1606543749932">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="144" y="79" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1606543749932" />
     <state width="1388" height="232" key="GridCell.Tab.0.bottom" timestamp="1606541758453">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -146,6 +161,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1388" height="232" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1606541758452" />
+    <state x="220" y="112" key="Vcs.Push.Dialog.v2" timestamp="1606543751465">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="220" y="112" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1606543751465" />
     <state x="2811" y="28" width="1029" height="887" key="dock-window-1" timestamp="1606470757207">
       <screen x="1280" y="0" width="2560" height="1080" />
     </state>
