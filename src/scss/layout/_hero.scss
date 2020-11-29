@@ -1,0 +1,15 @@
+.l-hero {
+
+  &__bg {
+    position: relative;
+  }
+
+  &__banner {
+    position: absolute;
+    top: -15%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 944px;
+  }
+}

@@ -1,0 +1,46 @@
+.l-header {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: z-index(header);
+
+  &__inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__left {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__logo {
+    max-width: 268px;
+    width: 100%;
+
+    a {
+      position: relative;
+      @include aspect-ratio(62, 268);
+    }
+  }
+
+  &__tel {
+    max-width: 318px;
+    width: 100%;
+
+    a {
+      position: relative;
+      @include aspect-ratio(50, 318);
+    }
+  }
+
+  &__nav {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+  }
+}

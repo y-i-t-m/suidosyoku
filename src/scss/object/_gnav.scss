@@ -1,0 +1,43 @@
+.gnav {
+  background: -moz-linear-gradient(top, #898682, #1e1d1b); /* Firefox */
+  background: -webkit-linear-gradient(top, #898682, #1e1d1b); /* safari Chrome */
+  background: -ms-linear-gradient(top, #898682, #1e1d1b); /* IE */
+  border-radius: 6px;
+  height: 72px;
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    flex: 1 1 auto;
+
+    &:not(:first-child) {
+      border-left: 1px solid #ddd;
+    }
+
+    &:not(:last-child) {
+      height: 72px;
+    }
+
+    &:last-child {
+      background: -moz-linear-gradient(top, red, #1e1d1b); /* Firefox */
+      background: -webkit-linear-gradient(top, red, #1e1d1b); /* safari Chrome */
+      background: -ms-linear-gradient(top, red, #1e1d1b); /* IE */
+      border-radius: 6px;
+      position: relative;
+      top: -4px;
+    }
+  }
+
+  &__link {
+    color: #fff;
+    padding: 24px;
+    text-align: center;
+
+    &:last-child {
+      height: 80px;
+    }
+  }
+}

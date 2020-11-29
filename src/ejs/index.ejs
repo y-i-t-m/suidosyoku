@@ -1,6 +1,277 @@
 <%- include('base/_head', {seo: data.seo}); %>
 <%- include('block/_header', {header: data.header}); %>
 <main class="l-main">
+    <%- include('block/_hero'); %>
+    <section>
+        <div class="top-catch">
+            <img src="../img/top_catch.png" width="1102" height="360" alt="">
+        </div>
+        <div class="container">
+            <p><strong>おおさか水道職人は大阪市に拠点を持ち、蛇口からの水漏れやトイレのつまりなど、水まわりで起こるあらゆるトラブルに年中無休で対応可能な水道修理のプロ集団です。</strong></p>
+            <p>おおさか水道職人は<strong>大阪府内全エリアで起きた水道トラブルに対して24時間体制で電話やメールにて受け付けを行っており、急なトラブルでも365日駆けつけ対応が可能</strong>です。</p>
+            <a href="#area">対応エリア一覧はこちら</a>
+            <p>実際に作業スタッフが現場を確認し、<strong>無料でお見積もり</strong>をご提示させていただき、<strong>お見積もり内容にご納得いただいた場合のみ</strong>作業を行わせていただきます。作業は地元大阪に常駐する自社スタッフが、現場の確認から修理作業の完了報告まで迅速・丁寧にご対応いたします。お支払い方法も、作業完了後の現金支払い以外にも各種クレジットカードや銀行振り込み、コンビニ決済と急なトラブルで手持ちがない時でもご安心いただけるようご用意しております。
+            </p>
+            <p>身のまわりで発生した水道管からの漏水、トイレ・お風呂・洗面所でのつまりや蛇口からの水漏れ、給湯器のトラブル全版でお困りの場合にはおおさか水道職人にお任せください。</p>
+        </div>
 
+    </section>
+    <section>
+        <div class="container">
+            <h2><img src="../img/top_sec01_heading.png" width="940" height="151" alt=""></h2>
+            <% const cards = [
+                {
+                    thumbnail: "../img/top_sec01_thumb1.jpg",
+                    alt: "蛇口",
+                    numberImg: "../img/bubble_01.png",
+                    headingTop: "水まわりの",
+                    headingBottom: "「専門家」",
+                    content: "身のまわりで起きる水トラブルは実に様々です。各現場それぞれにトラブルの内容やご使用されている水栓機器も異なります。<strong>おおさか水道職人のサービススタッフは、全員が厳しい研修をクリアした自社スタッフ</strong>のため、水まわりに関する豊富な知識や経験を持ち、蛇口からの水漏れやトイレつまりの他、給水管・給湯管工事一式、給湯器や井戸ポンプの交換など、水まわりに関する工事なら幅広くご対応させていただきます。"
+                },
+                {
+                    thumbnail: "../img/top_sec01_thumb2.jpg",
+                    alt: "スタッフとヒアリングするお客さま",
+                    numberImg: "../img/bubble_02.png",
+                    headingTop: "水まわりの",
+                    headingBottom: "「ホームドクター」",
+                    content: "水のトラブルはいつも決まった場所で起きるわけではありません。対応方法はトラブルやご要望の内容によって何通りも存在します。だからこそ、状況に応じた臨機応変な対応や正確な原因特定を大切にし、<strong>お客様のホームドクター（かかりつけ医）として、診断から修理まで責任を持って行わせていただきます。</strong><br>トラブル箇所以外にも気になることがございましたら、その場で<strong>無料点検</strong>も行っております。"
+                },
+                {
+                    thumbnail: "../img/top_sec01_thumb3.jpg",
+                    alt: "スタッフとヒアリングするお客さま",
+                    numberImg: "../img/bubble_03.png",
+                    headingTop: "水まわりの",
+                    headingBottom: "「未来提案」",
+                    content: "水道職人では、修理や交換などのトラブルの解消だけに留まらず、<strong>お客様にとってより快適でライフスタイルにも合った、今後の生活を1番に考えたご提案</strong>をさせていただきます。現在水まわりでお使いの蛇口やトイレなどの水栓機器も、種類や場所を変えるだけで便利で快適な生活を送ることが可能です。ご使用状況や、ご不満に思われている点などをしっかりとヒアリングさせていただき、未来につながるご提案を大切にしております。"
+                }
+            ]; %>
+            <div class="l-grid-large">
+                <% cards.forEach(card => { %>
+                <div class="l-grid-large__cell -col-md-4">
+                    <section class="card">
+                        <div class="card__inner">
+                            <div class="card__header">
+                                <div class="card__thumbnail">
+                                    <img src="<%- card.thumbnail %>" width="334" height="222" alt="">
+                                </div>
+                                <div class="card__number">
+                                    <img class="_w-auto" src="<%- card.numberImg %>" width="96" height="105" alt="">
+                                </div>
+                                <h3><span><%- card.headingTop %></span><span><%- card.headingBottom %></span></h3>
+                            </div>
+                            <div class="card__body">
+                                <p><%- card.content %></p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <% }); %>
+            </div>
+            <div class="">
+                <a href="" class="more-button">詳しくみる</a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h2><img src="../img/top_sec02_heading.png" width="460" height="136" alt=""></h2>
+            <div class="l-grid-large">
+                <% const iconCards = [
+                    {
+                        icon: "../img/icon_toilet.png",
+                        heading: "トイレ",
+                        thumbnail: "../img/top_sec02_toilet.jpg",
+                        alt: "トイレ",
+                        link: "/"
+                    },
+                    {
+                        icon: "../img/icon_kitchen.png",
+                        heading: "キッチン",
+                        thumbnail: "../img/top_sec02_kitchen.jpg",
+                        alt: "キッチン",
+                        link: "/"
+                    },
+                    {
+                        icon: "../img/icon_bath.png",
+                        heading: "お風呂",
+                        thumbnail: "../img/top_sec02_bath.jpg",
+                        alt: "お風呂",
+                        link: "/"
+                    },
+                    {
+                        icon: "../img/icon_washroom.png",
+                        heading: "洗面所",
+                        thumbnail: "../img/top_sec02_washroom.jpg",
+                        alt: "洗面所",
+                        link: "/"
+                    }
+                ]; %>
+                <% iconCards.forEach(iconCard => { %>
+                <div class="l-grid-large__cell -col-6 -col-lg-3">
+                    <section class="card-icon">
+                        <div class="card-icon__icon">
+                            <img src="<%- iconCard.icon %>" width="72" height="72" alt="">
+                        </div>
+                        <div class="card-icon__inner">
+                            <div class="card-icon__header">
+                                <h3><span><%- iconCard.heading %></span><span>の水漏れ・つまり</span></h3>
+                                <div class="card-icon__thumbnail">
+                                    <img src="<%- iconCard.thumbnail %>" width="260" height="174" alt="">
+                                </div>
+                            </div>
+                            <div class="card-icon__body">
+                                <div class="bubble-yellow">
+                                    <p>WEB割ご利用で3000円OFF</p>
+                                </div>
+                                <p>2,000<span>円〜</span></p>
+                            </div>
+                            <div class="card-icon__footer">
+                                <a class="more-button" href="<%- iconCard.link %>">詳しくはこちら</a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <% }); %>
+            </div>
+            <% const horizontalCards = [
+                {
+                    headingTop: "給湯器ポンプ",
+                    headingBottom: "のトラブル",
+                    thumbnail: "../img/top_sec02_pomp.jpg",
+                    alt: "給湯器",
+                    link: "/"
+                },
+                {
+                    headingTop: "排水口・排水管",
+                    headingBottom: "の水漏れ・つまり",
+                    thumbnail: "../img/top_sec02_haisui.jpg",
+                    alt: "給湯器",
+                    link: "/"
+                },
+                {
+                    headingTop: "屋外・水栓柱",
+                    headingBottom: "の水漏れ・つまり",
+                    thumbnail: "../img/top_sec02_okugai.jpg",
+                    alt: "給湯器",
+                    link: "/"
+                }
+            ]; %>
+            <div class="l-grid-large">
+                <% horizontalCards.forEach(horizontalCard => { %>
+                <div class="l-grid-large__cell -col-lg-4">
+                    <section class="card-horizontal">
+                        <div class="card-horizontal__inner">
+                            <div class="card-horizontal__header">
+                                <div class="card-horizontal__thumbnail">
+                                    <img src="<%- horizontalCard.thumbnail %>" width="120" height="180"
+                                            alt="<%- horizontalCard.alt %>">
+                                </div>
+                            </div>
+                            <div class="card-horizontal__body">
+                                <h3>
+                                    <span><%- horizontalCard.headingTop %></span><span><%- horizontalCard.headingBottom %></span>
+                                </h3>
+                                <div class="">
+                                    <div class="bubble-yellow">
+                                        <p>WEB割ご利用で3000円OFF</p>
+                                    </div>
+                                    <p>2,000<span><span>円</span><span>〜</span></span></p>
+                                </div>
+                            </div>
+                            <div class="card-horizontal__footer">
+                                <a class="more-button" href="<%- horizontalCard.link %>">詳細はこちら</a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <% }); %>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h2>ご利用の流れ</h2>
+            <div class="l-grid-large">
+                <div class="l-grid-large__cell -col-md-3">
+                    <div class="chevron-card">
+                        <div class="chevron-card__inner">
+                            <div class="chevron-card__header">
+                                <div class="chevron-card__thumbnail">
+                                    <img src="../img/top_sec03_01.jpg" width="258" height="172" alt="">
+                                    <span>01</span>
+                                </div>
+                                <h3>受付</h3>
+                            </div>
+                            <div class="chevron-card__content">
+                                <p>突然の水漏れやトイレのつまりなど、水のトラブルが起きた時には、<strong>24時間365日いつでも</strong>「0120-492-315」までお電話ください。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="l-grid-large__cell -col-md-3">
+                    <div class="chevron-card">
+                        <div class="chevron-card__inner">
+                            <div class="chevron-card__header">
+                                <div class="chevron-card__thumbnail">
+                                    <img src="../img/top_sec03_02.jpg" width="258" height="172" alt="">
+                                    <span>02</span>
+                                </div>
+                                <h3>お見積もり</h3>
+                            </div>
+                            <div class="chevron-card__content"><p>
+                                    お客様から伺った内容を確認し、水まわりのプロスタッフが<strong>最短30分〜1時間で駆け付け</strong>ます。到着後は、しっかりと原因の究明を行わせていただきます。蛇口からの水漏れ、排水のつまり、トイレの修理など多様なトラブルに対応可能です。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="l-grid-large__cell -col-md-3">
+                    <div class="chevron-card">
+                        <div class="chevron-card__inner">
+                            <div class="chevron-card__header">
+                                <div class="chevron-card__thumbnail">
+                                    <img src="../img/top_sec03_03.jpg" width="258" height="172" alt="">
+                                    <span>03</span>
+                                </div>
+                                <h3>出張・点検</h3>
+                            </div>
+                            <div class="chevron-card__content">
+                                <p>点検結果を元に、修理費用・内容を明記した<strong>無料のお見積り</strong>を提示いたします。作業やご説明内容に不明点がございましたら、遠慮なく担当スタッフにご相談ください。<strong>お見積り内容にご納得・ご署名いただかなければ修理は行いません。</strong>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="l-grid-large__cell -col-md-3">
+                    <div class="chevron-card">
+                        <div class="chevron-card__inner">
+                            <div class="chevron-card__header">
+                                <div class="chevron-card__thumbnail">
+                                    <img src="../img/top_sec03_04.jpg" width="258" height="172" alt="">
+                                    <span>04</span>
+                                </div>
+                                <h3>修理</h3>
+                            </div>
+                            <div class="chevron-card__content">
+                                <p>
+                                    弊社の熟練スタッフが、迅速かつ丁寧なトラブル解決を行います。作業後は修理箇所をお客様にご確認いただき作業完了、費用のお支払いとなります。お支払い方法は現金・クレジットカード・銀行振込・コンビニ決済がお選びいただけます。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="area">
+        <div class="container">
+            <h2>対応エリア</h2>
+            <div class="area-list">
+                <div class="area-list__inner">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 <%- include('block/_footer', {footer: data.footer}); %>

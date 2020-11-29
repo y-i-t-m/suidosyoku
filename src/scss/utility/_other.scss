@@ -12,8 +12,16 @@
   letter-spacing: 0;
 }
 
+._ls-200 {
+  letter-spacing: ls(200);
+}
+
 ._w-full {
   width: 100%;
+}
+
+._w-auto {
+  width: auto;
 }
 
 ._fwb {
