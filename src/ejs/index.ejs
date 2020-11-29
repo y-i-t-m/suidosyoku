@@ -14,7 +14,6 @@
             </p>
             <p>身のまわりで発生した水道管からの漏水、トイレ・お風呂・洗面所でのつまりや蛇口からの水漏れ、給湯器のトラブル全版でお困りの場合にはおおさか水道職人にお任せください。</p>
         </div>
-
     </section>
     <section>
         <div class="container">
@@ -266,11 +265,192 @@
     <section id="area">
         <div class="container">
             <h2>対応エリア</h2>
+            <%
+            const areas = [
+                {
+                    areaInitial: "あ行",
+                    areaName: "池田市／泉大津市／泉佐野市／和泉市／茨木市／大阪挟山市／大阪市中央区／大阪市旭区／大阪市阿倍野区／大阪市生野区／大阪市北区／大阪市此花区／大阪市城東区／大阪市住之江区／大阪市住吉区／大阪市大正区／大阪市鶴見区／大阪市天王寺区／大阪市浪速区／大阪市西区／大阪市西成区／大阪市西淀川区／大阪市東住吉区／大阪市東成区／大阪市東淀川区／大阪市平野区／大阪市福島区／大阪市港区／大阪市都島区／大阪市淀川区"
+                },
+                {
+                    areaInitial: "か行",
+                    areaName: "貝塚市／柏原市／交野市／門真市／河内長野市／岸和田市"
+                },
+                {
+                    areaInitial: "さ行",
+                    areaName: "堺市北区／堺市堺区／堺市中区／堺市西区／堺市東区／堺市南区／堺市美原区／四條畷市／吹田市／摂津市／泉南郡熊取町／泉南郡田尻町／泉南郡岬町／泉南市／泉北郡忠岡町"
+                },
+                {
+                    areaInitial: "た行",
+                    areaName: "大東市／高石市／高槻市／豊中市／豊能郡豊能町／豊能郡能勢町／富田林市"
+                },
+                {
+                    areaInitial: "な行",
+                    areaName: "寝屋川市"
+                },
+                {
+                    areaInitial: "は行",
+                    areaName: "羽曳野市／阪南市／東大阪市／枚方市／藤井寺市"
+                },
+                {
+                    areaInitial: "ま行",
+                    areaName: "松原市／三島都島本町／南河内都太子町／南河内都河南町／南河内都千早赤坂村／箕面市／守口市"
+                },
+                {
+                    areaInitial: "や行",
+                    areaName: "八尾市"
+                }
+            ]; %>
             <div class="area-list">
                 <div class="area-list__inner">
-                    
+                    <dl>
+                        <% areas.forEach(area => { %>
+                        <div class="">
+                            <dt><%- area.areaInitial %></dt>
+                            <dd><%- area.areaName %></dd>
+                        </div>
+                        <% }); %>
+                    </dl>
                 </div>
             </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h2>お客様の声・施工日記</h2>
+            <% const diaries = [
+                {
+                    thumbnail: "../img/sample01.jpg",
+                    category: "トイレ",
+                    heading: "大阪府〇〇〇〇〇〇〇へトイレつまり除去で伺いました。",
+                    content: "いつもおおさか水道職人の修理報告をご覧いただきありがとうございます。[依頼場所] 大阪府〇〇...",
+                },
+                {
+                    thumbnail: "../img/sample02.jpg",
+                    category: "洗面台",
+                    heading: "大阪府〇〇〇〇〇〇〇へトイレつまり除去で伺いました。",
+                    content: "いつもおおさか水道職人の修理報告をご覧いただきありがとうございます。[依頼場所] 大阪府〇〇...",
+                },
+                {
+                    thumbnail: "../img/sample03.jpg",
+                    category: "お風呂",
+                    heading: "大阪府〇〇〇〇〇〇〇へトイレつまり除去で伺いました。",
+                    content: "いつもおおさか水道職人の修理報告をご覧いただきありがとうございます。[依頼場所] 大阪府〇〇...",
+                },
+                {
+                    thumbnail: "../img/sample04.jpg",
+                    category: "キッチン",
+                    heading: "大阪府〇〇〇〇〇〇〇へトイレつまり除去で伺いました。",
+                    content: "いつもおおさか水道職人の修理報告をご覧いただきありがとうございます。[依頼場所] 大阪府〇〇...",
+                },
+                {
+                    thumbnail: "../img/sample01.jpg",
+                    category: "キッチン",
+                    heading: "大阪府〇〇〇〇〇〇〇へトイレつまり除去で伺いました。",
+                    content: "いつもおおさか水道職人の修理報告をご覧いただきありがとうございます。[依頼場所] 大阪府〇〇...",
+                },
+                {
+                    thumbnail: "../img/sample02.jpg",
+                    category: "トイレ",
+                    heading: "大阪府〇〇〇〇〇〇〇へトイレつまり除去で伺いました。",
+                    content: "いつもおおさか水道職人の修理報告をご覧いただきありがとうございます。[依頼場所] 大阪府〇〇...",
+                },
+                {
+                    thumbnail: "../img/sample03.jpg",
+                    category: "洗面台",
+                    heading: "大阪府〇〇〇〇〇〇〇へトイレつまり除去で伺いました。",
+                    content: "いつもおおさか水道職人の修理報告をご覧いただきありがとうございます。[依頼場所] 大阪府〇〇...",
+                },
+                {
+                    thumbnail: "../img/sample04.jpg",
+                    category: "お風呂",
+                    heading: "大阪府〇〇〇〇〇〇〇へトイレつまり除去で伺いました。",
+                    content: "いつもおおさか水道職人の修理報告をご覧いただきありがとうございます。[依頼場所] 大阪府〇〇...",
+                }
+            ]; %>
+            <div class="l-grid-large">
+                <% diaries.forEach(diary => { %>
+                <div class="l-grid-large__cell -col-md-6 -col-lg-3">
+                    <a href="/" class="diary-card">
+                        <div class="diary-card__category">
+                            <p><%- diary.category %></p>
+                        </div>
+                        <div class="diary-card__inner">
+                            <div class="dirry-card__header">
+                                <div class="diary-card__thumbnail">
+                                    <img src="<%- diary.thumbnail %>" width="270" height="180" alt="">
+                                </div>
+                                <h3><%- diary.heading %></h3>
+                            </div>
+                            <div class="diary-card__body">
+                                <p><%- diary.content %></p>
+                            </div>
+                            <div class="diary-card__footer">
+                                <p>
+                                    <time datetime="2020-12-01">2020.12.01</time>
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <% }); %>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h2>水のコラム</h2>
+            <% const columns = [
+                {
+                    thumbnail: "../img/sample01.jpg",
+                    heading: "コラムのタイトルが入ります。これはサンプルテキストです。",
+                    content: "いつもおおさか水道職人の修理報告をご覧いただきありがとうございます。[依頼場所] 大阪府〇〇...",
+                },
+                {
+                    thumbnail: "../img/sample02.jpg",
+                    heading: "コラムのタイトルが入ります。",
+                    content: "いつもおおさか水道職人の修理報告をご覧いただきありがとうございます。[依頼場所] 大阪府〇〇...",
+                },
+                {
+                    thumbnail: "../img/sample03.jpg",
+                    heading: "コラムのタイトルが入ります。これはサンプルテキストです。",
+                    content: "いつもおおさか水道職人の修理報告をご覧いただきありがとうございます。[依頼場所] 大阪府〇〇...",
+                },
+                {
+                    thumbnail: "../img/sample04.jpg",
+                    heading: "コラムのタイトルが入ります。これはサンプルテキストです。長文のサンプルになります。",
+                    content: "いつもおおさか水道職人の修理報告をご覧いただきありがとうございます。[依頼場所] 大阪府〇〇...",
+                }
+            ]; %>
+            <div class="l-grid-large">
+                <% columns.forEach(column => { %>
+                <div class="l-grid-large__cell -col-3">
+                    <a href="/" class="column-card">
+                        <div class="column-card__inner">
+                            <div class="column-card__header">
+                                <div class="column-card__thumbnail">
+                                    <img src="<%- column.thumbnail %>" width="270" height="180" alt="">
+                                </div>
+                                <h3><%- column.heading %></h3>
+                            </div>
+                            <div class="column-card__body">
+                                <p><%- column.content %></p>
+                            </div>
+                            <div class="column-card__footer">
+                                <p>
+                                    <time datetime="2020-12-01">2020.12.01</time>
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <% }); %>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <p>
+                おおさか水道職人は大阪市に拠点を持ち、蛇口からの水漏れやトイレのつまりなど、水まわりで起こるあらゆるトラブルに年中無休で対応可能な水道修理のプロ集団です。おおさか水道職人は大阪市・堺市・能勢町・豊能町・池田市・箕面市・豊中市・茨木市・高槻市・島本町・吹田市・摂津市・枚方市・交野市・寝屋川市・守口市・門真市・四條畷市・大東市・東大阪市・八尾市・柏原市・和泉市・高石市・泉大津市・忠岡町・岸和田市・貝塚市・熊取町・泉佐野市・田尻町・泉南市・阪南市岬町・松原市・羽曳野市・藤井寺市・太子町・河南町・千早赤阪村・富田林市・大阪狭山市・河内長野市など大阪府内全エリアで起きた水道トラブルに対して２４時間体制で電話やメールにて受け付けを行っており、急なトラブルでも３６５日駆けつけ対応が可能です。気になる作業料金ですが、水道職人では実際に作業スタッフが現場を確認し、無料でお見積りをご提示させていただきます。お見積り内容にご納得いただいた場合にのみ作業を行わせていただきますので、安心してご依頼くださいお支払方法は、作業完了後の現金支払い以外にも各種クレジットカードや銀行振り込み、コンビニ決済と急なトラブルで手持ちがない時でもご安心いただけるようご用意しております。作業は地元大阪に常駐する自社スタッフが、現場の確認から修理作業の完了報告まで迅速・丁寧にご対応いたします。身のまわりで発生した水道管からの漏水、トイレ・お風呂・洗面所でのつまりや蛇口からの水漏れ、給湯器のトラブル全般でお困りの場合にはおおさか水道職人にお任せください。</p>
         </div>
     </section>
 </main>
