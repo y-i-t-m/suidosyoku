@@ -1,0 +1,14 @@
+.chevron {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-right: 1px solid #333;
+  border-top: 1px solid #333;
+  transform: rotate(45deg);
+
+  &.-area {
+    transform: rotate(135deg);
+    border-right: 2px solid #333;
+    border-top: 2px solid #333;
+  }
+}

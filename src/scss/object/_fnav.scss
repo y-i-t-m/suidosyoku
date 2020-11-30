@@ -1,0 +1,15 @@
+.fnav {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+
+  &__inner {
+    width: 40%;
+  }
+
+  &__item {
+    width: 50%;
+    font-size: rem(14);
+    margin-top: .5rem;
+  }
+}

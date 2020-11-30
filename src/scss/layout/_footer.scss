@@ -1,0 +1,19 @@
+.l-footer {
+  background-image: url("../img/bg_footer.png");
+  padding-top: 3rem;
+
+  &__top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #fff;
+  }
+
+  &__tel {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}

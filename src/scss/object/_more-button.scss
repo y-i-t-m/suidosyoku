@@ -1,0 +1,48 @@
+.more-button {
+  padding: 24px;
+  display: inline-block;
+  max-width: 320px;
+  width: 100%;
+  background-color: color(main);
+  color: color(white);
+  border-radius: 8px;
+  text-align: center;
+  font-size: rem(20);
+  font-weight: 700;
+  position: relative;
+}
+
+.more-button-rounded {
+  display: inline-block;
+  width: 100%;
+  background-color: color(main);
+  color: color(white);
+  padding: .5rem 2rem;
+  font-weight: 700;
+  position: relative;
+  border-radius: 40px;
+  text-align: center;
+}
+
+.red-button-box {
+  position: absolute;
+  right: 25%;
+  bottom: 0;
+}
+
+.red-button {
+  padding: .75rem 1.5rem;
+  background-color: red;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 4px;
+}
+
+.area-button {
+  padding: .5rem 1rem;
+  border-radius: 4px;
+  border: 2px solid #333333;
+  display: inline-block;
+  font-size: rem(14);
+  font-weight: 700;
+}

@@ -1,5 +1,108 @@
-<footer class="footer">
-    <p class="footer__text"><small><%- footer.copyright %></small></p>
+<footer class="l-footer">
+    <div class="container">
+        <div class="l-footer__inner">
+            <div class="l-footer__top">
+                <div class="l-header__logo">
+                    <h1><a href="/"><img class="img" src="../../img/logo.png" width="268" height="62" decoding="async"
+                                    alt="水のサポート おおさか水道職人"></a></h1>
+                </div>
+                <div class="l-footer__tel">
+                    <a href=""><img class="_w-auto" src="../../img/tel.png" width="318" height="50" decoding="async"
+                                alt="おおさか水道職人へ繋がる電話番号"></a>
+                    <p class="_fz-12 _fwb _pl-32">年中無休・24時間受付・お見積り無料</p>
+                </div>
+                <address>〒000-0000<br>大阪府〇〇〇〇〇〇〇〇〇〇〇〇</address>
+            </div>
+        </div>
+        <div class="l-footer__body">
+            <div class="fnav">
+                <div class="fnav__inner">
+                    <ul class="fnav__list">
+                        <li class="_fz-14"><a href="" class="_d-flex items-center"><span class="chevron _mr-8"></span>サービス内容と料金</a>
+                            <ul class="_d-flex flex-wrap _pl-16">
+                                <li class="fnav__item"><a href="">- トイレの水漏れ・つまり</a></li>
+                                <li class="fnav__item"><a href="">- 給湯器ポンプのトラブル</a></li>
+                                <li class="fnav__item"><a href="">- キッチンの水漏れ・つまり</a></li>
+                                <li class="fnav__item"><a href="">- 排水口・排水管のつまり・水漏れ</a></li>
+                                <li class="fnav__item"><a href="">- お風呂の水漏れ・つまり</a></li>
+                                <li class="fnav__item"><a href="">- 屋外・水栓柱の水漏れ・つまり</a></li>
+                                <li class="fnav__item"><a href="">- 洗面所の水漏れ・つまり</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="fnav__inner _w-half _pl-64">
+                    <ul class="_fz-14 relative">
+                        <li class="_d-inline-block _w-tweek _mt-8"><a href="" class="_d-flex items-center"><span
+                                        class="chevron _mr-8"></span>大阪の水漏れ修理&nbsp;おおさか水道職人</a>
+                        </li>
+                        <li class="_d-inline-block _w-tweek _mt-8"><a href="" class="_d-flex items-center"><span
+                                        class="chevron _mr-8"></span>水のコラム</a></li>
+                        <li class="_d-inline-block _w-tweek _mt-8"><a href="" class="_d-flex items-center"><span
+                                        class="chevron _mr-8"></span>水道職人のこだわり</a>
+                        </li>
+                        <li class="_d-inline-block _w-tweek _mt-8"><a href="" class="_d-flex items-center"><span
+                                        class="chevron _mr-8"></span>会社案内</a></li>
+                        <li><a href="" class="_d-flex items-center _mt-8"><span class="chevron _mr-8"></span>対応エリア</a>
+                        </li>
+                        <li><a href="" class="_d-flex items-center _mt-8"><span class="chevron _mr-8"></span>お客様の声・施工日記</a>
+                        </li>
+                        <div class="red-button-box">
+                            <a href="" class="red-button">お急ぎの方はこちら</a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <div class="office">
+                <h3 class="office__title">営業所一覧</h3>
+                <dl class="office__wrap">
+                    <% const offices = [
+                        {
+                            head: "〇〇営業所",
+                            address: "大阪府〇〇〇〇〇〇〇〇〇〇〇〇"
+                        },
+                        {
+                            head: "〇〇〇〇営業所",
+                            address: "大阪府〇〇〇〇〇〇〇〇〇〇〇〇"
+                        },
+                        {
+                            head: "〇〇営業所",
+                            address: "大阪府〇〇〇〇〇〇〇〇〇〇〇〇"
+                        },
+                        {
+                            head: "〇〇〇〇営業所",
+                            address: "大阪府〇〇〇〇〇〇〇〇〇〇〇〇"
+                        },
+                        {
+                            head: "〇〇営業所",
+                            address: "大阪府〇〇〇〇〇〇〇〇〇〇〇〇"
+                        },
+                        {
+                            head: "〇〇営業所",
+                            address: "大阪府〇〇〇〇〇〇〇〇〇〇〇〇"
+                        },
+                        {
+                            head: "〇〇〇〇営業所",
+                            address: "大阪府〇〇〇〇〇〇〇〇〇〇〇〇"
+                        },
+                        {
+                            head: "〇〇営業所",
+                            address: "大阪府〇〇〇〇〇〇〇〇〇〇〇〇"
+                        }
+                    ] %>
+                    <% offices.forEach(office => { %>
+                    <div class="office__box">
+                        <dt class="office__head"><%- office.head %></dt>
+                        <dd class="office__body"><%- office.address %></dd>
+                    </div>
+                    <% }); %>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <div class="_pt-16 _pb-16 _bg-main _mt-40">
+        <p class="l-footer__copy _c-white _fz-12 _t-center"><small><%- footer.copyright %></small></p>
+    </div>
 </footer>
 
 </body>

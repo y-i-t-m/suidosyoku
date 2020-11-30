@@ -1,0 +1,40 @@
+.chevron-card {
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 4px;
+  height: 100%;
+
+  &__inner {
+
+  }
+
+  &__thumbnail {
+    position: relative;
+  }
+
+  &__number {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -6%;
+    font-size: rem(40);
+    color: yellow;
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  &__heading {
+    font-size: rem(24);
+    font-weight: 700;
+    color: color(main);
+    text-align: center;
+    line-height: 1;
+    margin-top: 1.25rem;
+  }
+
+  &__content {
+    margin-top: 1rem;
+    line-height: 1.75;
+    letter-spacing: ls(150);
+  }
+}

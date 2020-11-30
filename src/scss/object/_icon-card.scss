@@ -1,0 +1,28 @@
+.card-icon {
+  position: relative;
+
+  &__icon {
+    position: absolute;
+    top: -8%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  &__inner {
+    padding: 3rem 1rem 1rem;
+    border: 2px solid color(main);
+    border-radius: 8px;
+  }
+
+  &__heading {
+    font-size: rem(32);
+    color: color(main);
+  }
+
+  &__body {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

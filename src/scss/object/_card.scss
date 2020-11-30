@@ -1,0 +1,14 @@
+.card {
+  background-color: #fff;
+
+  &__inner {
+    padding: 1.5rem;
+    position: relative;
+  }
+
+  &__number {
+    position: absolute;
+    top: -4%;
+    left: -4%;
+  }
+}

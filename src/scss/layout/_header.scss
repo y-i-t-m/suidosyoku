@@ -3,17 +3,27 @@
   top: 0;
   background-color: #fff;
   z-index: z-index(header);
+  padding-bottom: 3.5rem;
 
   &__inner {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
   }
 
   &__left {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    width: 60%;
+  }
+
+  &__right {
+    width: 40%;
   }
 
   &__logo {

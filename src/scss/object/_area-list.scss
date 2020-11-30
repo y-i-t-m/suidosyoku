@@ -1,0 +1,35 @@
+.area-list {
+  position: relative;
+  z-index: 5;
+   &__inner {
+     padding: 1rem;
+     border: 1px solid #ddd;
+     border-radius: 4px;
+     background-color: #fff;
+   }
+
+  &__box {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #ddd;
+
+    &:last-of-type {
+      border-bottom: none;
+    }
+  }
+
+  &__head {
+    flex-basis: 6%;
+    max-width: 6%;
+    color: color(main);
+    font-weight: 700;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  &__body {
+    flex-basis: 94%;
+    max-width: 94%;
+    padding: 1rem 0;
+  }
+}
