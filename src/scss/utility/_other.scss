@@ -15,6 +15,10 @@
   align-items: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -111,8 +115,8 @@
 
 .oosaka {
   position: absolute;
-  top: 0;
-  left: 0%;
+  top: -15%;
+  left: -2%;
   width: auto;
 }
 

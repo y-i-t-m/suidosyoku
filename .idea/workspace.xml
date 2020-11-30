@@ -20,35 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f23cb06a-fd2c-4595-9860-9d2299425905" name="デフォルト変更リスト" comment="">
-      <change afterPath="$PROJECT_DIR$/src/img/bg_01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/bg_ami.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/bg_footer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/catch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/layout/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/layout/_grid-ml.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/object/_area-list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/object/_bubble-yellow.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/object/_card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/object/_chevron-card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/object/_chevron.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/object/_column-card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/object/_fnav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/object/_horizontal-card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/object/_icon-card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/object/_more-button.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/object/_office.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/object/_section-heading.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/object/diary-card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icon_house.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/women.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dest/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dest/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dest/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dest/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejs/block/_footer.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejs/block/_footer.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ejs/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejs/index.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/foundation/_color.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/foundation/_color.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/layout/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_hero.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/object/_gnav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/object/_gnav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/utility/_margin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/utility/_margin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/json/unsei.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/utility/_other.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/utility/_other.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +111,7 @@
       <workItem from="1606461650901" duration="692000" />
       <workItem from="1606462642853" duration="8249000" />
       <workItem from="1606476108080" duration="34546000" />
-      <workItem from="1606695684087" duration="29603000" />
+      <workItem from="1606695684087" duration="30839000" />
     </task>
     <task id="LOCAL-00001" summary="あ">
       <created>1606543726016</created>
