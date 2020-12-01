@@ -20,13 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f23cb06a-fd2c-4595-9860-9d2299425905" name="デフォルト変更リスト" comment="">
-      <change afterPath="$PROJECT_DIR$/src/img/icon_house.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/women.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/object/_hamburger-button.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dest/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dest/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dest/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dest/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejs/block/_gnav.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejs/block/_gnav.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejs/block/_header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejs/block/_header.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ejs/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejs/index.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/json/unsei.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/foundation/_color.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/foundation/_color.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/object/_chevron.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/object/_chevron.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/object/_gnav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/object/_gnav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/object/_more-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/object/_more-button.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/utility/_other.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/utility/_other.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +116,7 @@
       <workItem from="1606461650901" duration="692000" />
       <workItem from="1606462642853" duration="8249000" />
       <workItem from="1606476108080" duration="34546000" />
-      <workItem from="1606695684087" duration="30839000" />
+      <workItem from="1606695684087" duration="43831000" />
     </task>
     <task id="LOCAL-00001" summary="あ">
       <created>1606543726016</created>
@@ -144,6 +149,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="あ" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="359" y="231" key="#Notifications" timestamp="1606809095390">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="359" y="231" key="#Notifications/0.0.1280.800/1280.0.2560.1080@0.0.1280.800" timestamp="1606809095390" />
     <state x="381" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606707882485">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
