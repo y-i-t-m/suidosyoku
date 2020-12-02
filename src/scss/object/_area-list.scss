@@ -25,6 +25,11 @@
     font-weight: 700;
     text-align: center;
     padding: 1rem 0;
+    @include breakpoint-down(md) {
+      flex-basis: auto;
+      max-width: none;
+      padding-bottom: 0;
+    }
   }
 
   &__body {

@@ -9,11 +9,19 @@
     align-items: flex-end;
     padding-bottom: 2rem;
     border-bottom: 1px solid #fff;
+    @include breakpoint-down(md) {
+      justify-content: center;
+      align-items: center;
+    }
   }
 
   &__tel {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+
+    @include breakpoint-down(md) {
+      justify-content: center;
+    }
   }
 }

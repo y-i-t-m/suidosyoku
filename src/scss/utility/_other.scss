@@ -101,7 +101,6 @@
 
 .bg-img4 {
   background-image: url("../img/bg_ami.jpg");
-  background-size: cover;
   background-position: center center;
 }
 
@@ -111,6 +110,10 @@
   transform: translateX(-50%);
   top: -8%;
   z-index: z-index(main);
+  @include breakpoint-down(md) {
+    width: 90%;
+    top: -2%;
+  }
 }
 
 .oosaka {
@@ -132,6 +135,12 @@
   right: -3%;
   width: auto;
   z-index: 1;
+
+  @include breakpoint-down(md) {
+    width: 312px;
+    left: 42%;
+    transform: translate(-50%, 200px);
+  }
 }
 
 .women {
@@ -226,6 +235,12 @@
   padding: 1rem 2rem;
   border-radius: 32px;
   margin-right: 8px;
+  line-height: 1.2;
+
+  @include breakpoint-down(md) {
+    padding-top: .5rem;
+    font-size: rem(12);
+  }
 
   &::before {
     content: "";
@@ -239,5 +254,32 @@
     border-top: 2px solid #ddd;
     border-right: 2px solid #ddd;
     background-color: #fff;
+  }
+}
+
+.border-bottom {
+  border-bottom: 1px solid #ddd;
+}
+
+._w-md-full {
+  @include breakpoint-down(md) {
+    width: 100%;
+  }
+}
+
+.overflow-y-auto {
+  @include breakpoint-down(md) {
+    overflow-x: scroll;
+    flex-flow: nowrap;
+    padding-top: 1.5rem;
+  }
+}
+
+.-scroll {
+  @include breakpoint-down(md) {
+    width: 320px !important;
+    display: inline-block !important;
+    flex: 0 0 320px;
+    flex-basis: auto;
   }
 }

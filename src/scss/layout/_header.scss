@@ -4,6 +4,9 @@
   background-color: #fff;
   z-index: z-index(header);
   padding-bottom: 3.5rem;
+  @include breakpoint-down(md) {
+    padding-bottom: 0;
+  }
 
   &__inner {
     display: flex;
@@ -12,7 +15,10 @@
     justify-content: space-between;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    border-bottom: 1px solid #ddd;
+    @include breakpoint-down(md) {
+      padding-top: .5rem;
+      padding-bottom: .5rem;
+    }
   }
 
   &__left {
@@ -20,12 +26,25 @@
     flex-wrap: wrap;
     align-items: center;
     width: 60%;
+    @include breakpoint-down(md) {
+      width: 40%;
+    }
+  }
+
+  &__tel-img {
+    //@include breakpoint-down(md) {
+    //  width: 90%;
+    //  margin: 0 auto;
+    //}
   }
 
   &__right {
     width: 40%;
     display: flex;
     justify-content: flex-end;
+    @include breakpoint-down(md) {
+      width: 60%;
+    }
   }
 
   &__logo {
@@ -41,10 +60,8 @@
   &__tel {
     max-width: 318px;
     width: 100%;
-
-    a {
-      position: relative;
-      @include aspect-ratio(50, 318);
+    @include breakpoint-down(md) {
+      width: 70%;
     }
   }
 

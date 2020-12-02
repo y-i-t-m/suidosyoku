@@ -1,30 +1,41 @@
 <header class="l-header">
-    <div class="container">
-        <div class="l-header__inner relative">
-            <div class="l-header__left">
-                <div class="l-header__logo">
-                    <h1><a href="/"><img class="img" src="../../img/logo.png" width="268" height="62" decoding="async"
-                                    alt="水のサポート おおさか水道職人"></a></h1>
-                </div>
-                <p class="_pt-16"><span class="_fz-12 _ls-200">おおさかのトイレつまり・水漏れ修理なら「おおさか水道職人」</span></p>
-            </div>
-            <div class="l-header__right">
-                <div class="l-header__tel _mr-16">
-                    <p class="_fz-12 _fwb _t-right">年中無休・24時間受付・お見積り無料</p>
-                    <div class="l-header__tel-img">
-                        <a href=""><img class="img" src="../../img/tel.png" width="318" height="50" decoding="async"
-                                    alt="おおさか水道職人へ繋がる電話番号"></a>
+    <div class="border-bottom">
+        <div class="container">
+            <div class="l-header__inner relative">
+                <div class="l-header__left">
+                    <div class="l-header__logo">
+                        <h1><a href="/"><img class="img" src="../../img/logo.png" width="268" height="62"
+                                        decoding="async"
+                                        alt="水のサポート おおさか水道職人"></a></h1>
                     </div>
+                    <p class="_pt-16 _d-none _d-md-block"><span
+                                class="_fz-12 _ls-200">おおさかのトイレつまり・水漏れ修理なら「おおさか水道職人」</span></p>
                 </div>
-                <button id="hamburgerButton" class="hamburger-button" type="button" aria-expanded="false" aria-label="open">
+                <div class="l-header__right">
+                    <div class="l-header__tel _mr-8 _mr-md-16">
+                        <p class="_fz-12 _fwb _t-right _d-none _d-md-block">年中無休・24時間受付・お見積り無料</p>
+                        <div class="l-header__tel-img">
+                            <a href="">
+                                <picture>
+                                    <source srcset="../../img/tel_sp.jpg"
+                                            media="(max-width: 767px)">
+                                    <img class="" src="../../img/tel.png" width="318" height="50" decoding="async"
+                                            alt="おおさか水道職人へ繋がる電話番号">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+                    <button id="hamburgerButton" class="hamburger-button" type="button" aria-expanded="false"
+                            aria-label="open">
                     <span class="hamburger-button__inner">
 				        <span class="hamburger-button__line"></span>
                         <span id="hamburgerButtonText" class="hamburger-button__text">メニュー</span>
 			        </span>
-                </button>
-            </div>
-            <div class="l-header__nav">
-                <%- include('_gnav'); %>
+                    </button>
+                </div>
+                <div class="l-header__nav">
+                    <%- include('_gnav'); %>
+                </div>
             </div>
         </div>
     </div>
