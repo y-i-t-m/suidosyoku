@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
-    <title>大阪水道職人</title>
+    <title>おおさか水道職人</title>
     <meta name="description" content="大阪水道職人のテキストが入ります。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="大阪水道職人">
+    <meta property="og:title" content="おおさか水道職人">
     <meta property="og:url" content="https://google.com">
     <meta property="og:image" content="./img/ogp.png">
-    <meta property="og:site_name" content="大阪水道職人">
+    <meta property="og:site_name" content="おおさか水道職人">
     <meta property="og:description" content="大阪水道職人のテキストが入ります。">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/main.js" defer></script>
@@ -18,7 +18,7 @@
 <body>
 <header class="l-header">
     <div class="border-bottom">
-        <div class="container">
+        <div class="container -header">
             <div class="l-header__inner relative">
                 <div class="l-header__left">
                     <div class="l-header__logo">
@@ -43,7 +43,7 @@
                             </a>
                         </div>
                     </div>
-                    <button id="hamburgerButton" class="hamburger-button" type="button" aria-expanded="false"
+                    <button id="hamburgerButton" class="hamburger-button" type="button" aria-expanded="true"
                             aria-label="open">
                     <span class="hamburger-button__inner">
 				        <span class="hamburger-button__line"></span>
@@ -56,11 +56,22 @@
     <ul class="gnav__list">
         <li class="gnav__item"><a class="gnav__link" href="/">トップ</a></li>
         <li class="gnav__item"><a class="gnav__link" href="/">水道職人のこだわり</a></li>
-        <li class="gnav__item"><a class="gnav__link" href="/">サービス内容と料金</a></li>
+        <li class="gnav__item -popup"><a class="gnav__link" href="/">サービス内容と料金</a>
+            <ul class="popup-list">
+                <li class="popup-list__item"><a class="popup-list__link" href="">トイレの水漏れ・つまり</a></li>
+                <li class="popup-list__item"><a class="popup-list__link" href="">キッチンの水漏れ・つまり</a></li>
+                <li class="popup-list__item"><a class="popup-list__link" href="">お風呂の水漏れ・つまり</a></li>
+                <li class="popup-list__item"><a class="popup-list__link" href="">洗面所の水漏れ・つまり</a></li>
+                <li class="popup-list__item"><a class="popup-list__link" href="">給湯器の水漏れ・つまり</a></li>
+                <li class="popup-list__item"><a class="popup-list__link" href="">排水口・排水管の水漏れ・つまり</a></li>
+                <li class="popup-list__item"><a class="popup-list__link -border-none" href="">屋外・水栓柱の水漏れ・つまり</a></li>
+            </ul>
+        </li>
         <li class="gnav__item"><a class="gnav__link" href="/">対応エリア</a></li>
         <li class="gnav__item"><a class="gnav__link" href="/">お客様の声・施工日記</a></li>
         <li class="gnav__item"><a class="gnav__link" href="/">会社案内</a></li>
-        <li class="gnav__item"><a class="gnav__link" href="/"><span class="nav-bubble">急なトラブルにも対応！</span>お急ぎの方はこちら<span class="chevron -nav _ml-8"></span></a></li>
+        <li class="gnav__item"><a class="gnav__link" href="/"><span class="nav-bubble">急なトラブルにも対応！</span>お急ぎの方はこちら<span
+                        class="chevron -nav _ml-8"></span></a></li>
     </ul>
 </nav>
                 </div>
@@ -68,6 +79,44 @@
         </div>
     </div>
 </header>
+<div id="toggleNav" class="toggle-nav _d-none">
+    <div class="_d-flex justify-between">
+        <div class="toggle-nav__logo">
+            <a href="/">
+                <img src="../../img/logo.png" alt="">
+            </a>
+        </div>
+        <button id="hamburgerButton" class="hamburger-button" type="button" aria-expanded="true"
+                aria-label="open">
+                    <span class="hamburger-button__inner">
+				        <span class="hamburger-button__line"></span>
+                        <span id="hamburgerButtonText" class="hamburger-button__text">閉じる</span>
+			        </span>
+        </button>
+    </div>
+    <nav class="_mt-24 _pb-16 -border-bottom-white">
+        <ul class="_fz-15">
+            <li><a class="_pt-8 _pb-8" href=""><span class="chevron _mr-8"></span>大阪の水漏れ修理&nbsp;おおさか水道職人</a></li>
+            <li><a class="_pt-8 _pb-8" href=""><span class="chevron _mr-8"></span>サービス内容と料金</a>
+                <ul class="_pl-16">
+                    <li><a href="">- トイレの水漏れ・つまり</a></li>
+                    <li><a href="">- キッチンの水漏れ・つまり</a></li>
+                    <li><a href="">- お風呂の水漏れ・つまり</a></li>
+                    <li><a href="">- 洗面所の水漏れ・つまり</a></li>
+                    <li><a href="">- 給湯器の水漏れ・つまり</a></li>
+                    <li><a href="">- 排水口・排水管の水漏れ・つまり</a></li>
+                    <li><a href="">- 屋外・水栓柱の水漏れ・つまり</a></li>
+                </ul>
+            </li>
+            <li><a class="_pt-8 _pb-8" href=""><span class="chevron _mr-8"></span>水道職人のこだわり</a></li>
+            <li><a class="_pt-8 _pb-8" href=""><span class="chevron _mr-8"></span>対応エリア</a></li>
+            <li><a class="_pt-8 _pb-8" href=""><span class="chevron _mr-8"></span>お客様の声・施工日記</a></li>
+            <li><a class="_pt-8 _pb-8" href=""><span class="chevron _mr-8"></span>水のコラム</a></li>
+            <li><a class="_pt-8 _pb-8" href=""><span class="chevron _mr-8"></span>会社案内</a></li>
+        </ul>
+    </nav>
+    <a href="" class="red-button _mt-12">お急ぎの方はこちら</a>
+</div>
 <main class="l-main">
     <section class="l-hero">
     <div class="l-hero__inner">
@@ -81,18 +130,24 @@
         <div class="l-hero__bg">
             <img src="../../img/hero_bottom_bg.jpg" width="1432" height="324" alt="">
             <div class="l-hero__banner">
-                <a href=""><img src="../../img/hero_banner.png" width="944" height="300" alt=""></a>
+                <a href="">
+                    <picture>
+                        <source srcset="../../img/banner_sp.png"
+                                media="(max-width: 767px)">
+                        <img src="../../img/hero_banner.png" width="944" height="300" alt="">
+                    </picture>
+                </a>
             </div>
         </div>
     </div>
 </section>
-    <section>
+    <section class="_mt-120 _mt-ml-96 _mt-lg-0">
         <div class="container">
             <div class="top-catch relative">
                 <picture>
                     <source srcset="../img/catch_sp.png"
                             media="(max-width: 767px)">
-                    <img class="_w-auto mx-auto _w-md-full" src="../img/catch.png" width="954" height="245" alt="">
+                    <img class="_w-auto mx-auto _w-ml-full" src="../img/catch.png" width="954" height="245" alt="">
                 </picture>
                 <img class="oosaka _d-none _d-md-block" src="../img/oosaka.png" height="360" width="248" alt="">
             </div>
@@ -133,7 +188,7 @@
                 <picture>
                     <source srcset="../img/top_sec01_heading_sp.png"
                             media="(max-width: 767px)">
-                    <img class="_w-auto mx-auto _w-md-full" src="../img/top_sec01_heading.png" width="940"
+                    <img class="_w-auto mx-auto _w-ml-full" src="../img/top_sec01_heading.png" width="940"
                             height="151" alt="">
                 </picture>
             </h2>
@@ -734,7 +789,7 @@
             </div>
         </div>
     </section>
-    <section class="_pt-96 _pb-96">
+    <section class="_pt-96 _pb-md-96 _pb-144">
         <div class="container">
             <h2 class="section-heading">水のコラム</h2>
             <div class="l-grid-large _mt-48 overflow-y-auto  _pt-0">
@@ -824,7 +879,7 @@
             </div>
         </div>
     </section>
-    <section class="_mt-120 _mt-md-0">
+    <section class="_mt-160 _mt-md-0">
         <div class="relative">
             <h2 class="banner__head _lh-1 _w-full _t-center _d-none _d-md-block"><span class="_fz-60 _c-yellow">お急ぎの方</span>は<span
                         class="_fz-60">お電話</span>ください！</h2>
@@ -864,7 +919,8 @@
                                     alt="水のサポート おおさか水道職人"></a></h1>
                 </div>
                 <div class="l-footer__tel">
-                    <a href=""><img class="_w-auto _w-md-full" src="../../img/tel.png" width="318" height="50" decoding="async"
+                    <a href=""><img class="_w-auto _w-md-full" src="../../img/tel.png" width="318" height="50"
+                                decoding="async"
                                 alt="おおさか水道職人へ繋がる電話番号"></a>
                     <p class="_fz-12 _fwb _pl-32 _t-center _t-md-left">年中無休・24時間受付・お見積り無料</p>
                 </div>
@@ -909,6 +965,38 @@
                         </div>
                     </ul>
                 </div>
+            </div>
+            <div class="fnav-sp _d-md-none">
+                <ul class="fnav-sp__list">
+                    <li class="fnav-sp__item"><a href="" class="fnav-sp__link"><span class="chevron _mr-8"></span>大阪の水漏れ修理&nbsp;おおさか水道職人</a>
+                    </li>
+                    <li class="fnav-sp__item"><a href="" class="fnav-sp__link"><span class="chevron _mr-8"></span>水道職人のこだわり</a>
+                    </li>
+                    <li class="fnav-sp__item">
+                        <button id="footerAccordionButton" class="fnav-sp__link -accordion"><span
+                                    class="chevron _mr-8"></span>サービス内容と料金<span id="plusButton"
+                                    class="plus-button">＋</span></button>
+                        <ul class="fnav-sp__acc _pl-16 _mt-16 _fz-14">
+                            <li class="fnav-sp__acc-item"><a class="fnav-sp__acc-link" href="">- トイレの水漏れ・つまり</a></li>
+                            <li class="fnav-sp__acc-item"><a class="fnav-sp__acc-link" href="">- キッチンの水漏れ・つまり</a></li>
+                            <li class="fnav-sp__acc-item"><a class="fnav-sp__acc-link" href="">- お風呂の水漏れ・つまり</a></li>
+                            <li class="fnav-sp__acc-item"><a class="fnav-sp__acc-link" href="">- 洗面所の水漏れ・つまり</a></li>
+                            <li class="fnav-sp__acc-item"><a class="fnav-sp__acc-link" href="">- 給湯器の水漏れ・つまり</a></li>
+                            <li class="fnav-sp__acc-item"><a class="fnav-sp__acc-link" href="">- 排水口・排水管の水漏れ・つまり</a>
+                            </li>
+                            <li class="fnav-sp__acc-item"><a class="fnav-sp__acc-link" href="">- 屋外・水栓柱の水漏れ・つまり</a></li>
+                        </ul>
+                    </li>
+                    <li class="fnav-sp__item"><a href="" class="fnav-sp__link"><span class="chevron _mr-8"></span>対応エリア</a>
+                    </li>
+                    <li class="fnav-sp__item"><a href="" class="fnav-sp__link"><span class="chevron _mr-8"></span>お客様の声・施工日記</a>
+                    </li>
+                    <li class="fnav-sp__item"><a href="" class="fnav-sp__link"><span class="chevron _mr-8"></span>水のコラム</a>
+                    </li>
+                    <li class="fnav-sp__item"><a href="" class="fnav-sp__link"><span
+                                    class="chevron _mr-8"></span>会社案内</a></li>
+                </ul>
+                <a href="" class="red-button _pt-24 _pb-24 _t-center _mt-16 _mb-32">お急ぎの方はこちらをご確認ください</a>
             </div>
             <div class="office">
                 <h3 class="office__title">営業所一覧</h3>

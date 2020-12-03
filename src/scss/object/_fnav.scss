@@ -13,3 +13,35 @@
     margin-top: .5rem;
   }
 }
+
+.fnav-sp {
+
+  &__list {
+
+  }
+
+  &__item {
+
+  }
+
+  &__link {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #333333;
+    font-size: rem(14);
+
+    &.-accordion {
+      background-color: transparent;
+      width: 100%;
+      text-align: left;
+      position: relative;
+    }
+  }
+}
+
+.fnav-sp__acc {
+
+  &-item {
+    margin-top: 8px;
+  }
+}

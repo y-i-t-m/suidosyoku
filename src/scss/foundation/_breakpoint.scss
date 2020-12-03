@@ -1,6 +1,8 @@
 $padding-sp: 16px; // SP時の横余白
 $padding-pc: 24px; // PC時の横余白
 $breakpoints: (
+        xs:(width:460px,
+                padding: $padding-sp),
         sm: (width: 576px,
                 padding: $padding-sp),
         md: (width: 768px,

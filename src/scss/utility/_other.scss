@@ -91,12 +91,19 @@
 .bg-img2 {
   background-image: url("../img/bg_top_sec.jpg");
   background-size: cover;
+  @include breakpoint-down(md) {
+    background-image: url("../img/bg_top_sec_sp.jpg");
+  }
 }
 
 .bg-img3 {
   background-image: url("../img/bg_01.jpg");
   background-size: cover;
   background-position: center center;
+  @include breakpoint-down(md) {
+    background-image: url("../img/bg_01_sp.jpg");
+
+  }
 }
 
 .bg-img4 {
@@ -110,9 +117,17 @@
   transform: translateX(-50%);
   top: -8%;
   z-index: z-index(main);
-  @include breakpoint-down(md) {
+  @include breakpoint-down(ml) {
+    top: -3%;
+    width: 90%;
+  }
+  @include breakpoint-down(sm) {
     width: 90%;
     top: -2%;
+  }
+
+  @include breakpoint-down(xs) {
+    top: -1.5%;
   }
 }
 
@@ -267,6 +282,12 @@
   }
 }
 
+._w-ml-full {
+  @include breakpoint-down(ml) {
+    width: 100%;
+  }
+}
+
 .overflow-y-auto {
   @include breakpoint-down(md) {
     overflow-x: scroll;
@@ -282,4 +303,8 @@
     flex: 0 0 320px;
     flex-basis: auto;
   }
+}
+
+.-border-bottom-white {
+  border-bottom: 1px solid #fff;
 }

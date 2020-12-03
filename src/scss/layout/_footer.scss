@@ -1,6 +1,9 @@
 .l-footer {
   background-image: url("../img/bg_footer.png");
   padding-top: 3rem;
+  @include breakpoint-down(md) {
+    background-image: url("../img/bg_footer_sp.jpg");
+  }
 
   &__top {
     display: flex;

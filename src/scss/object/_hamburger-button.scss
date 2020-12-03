@@ -61,3 +61,21 @@
     font-weight: 700;
   }
 }
+
+.hamburger-button[aria-expanded="true"] .hamburger-button__line {
+  background-color: transparent;
+}
+
+.hamburger-button[aria-expanded="true"] .hamburger-button__line::before,
+.hamburger-button[aria-expanded="true"] .hamburger-button__line::after {
+  top: 0;
+  background-color: color(main);
+}
+
+.hamburger-button[aria-expanded="true"] .hamburger-button__line::before {
+  transform: rotate(-45deg);
+}
+
+.hamburger-button[aria-expanded="true"] .hamburger-button__line::after {
+  transform: rotate(45deg);
+}

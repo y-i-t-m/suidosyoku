@@ -11,5 +11,8 @@
     transform: translateX(-50%);
     width: 100%;
     max-width: 944px;
+    @include breakpoint-down(md) {
+      top: -27%;
+    }
   }
 }
