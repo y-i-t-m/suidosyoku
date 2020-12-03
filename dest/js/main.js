@@ -1,1 +1,1 @@
-(()=>{"use strict";document.addEventListener("DOMContentLoaded",(function(){}),!1)})();
+(()=>{"use strict";var e=document.getElementById("footerAccordionButton"),t=document.querySelectorAll(".hamburger-button");e.addEventListener("click",(function(){"false"===e.getAttribute("aria-expanded")?e.setAttribute("aria-expanded","true"):e.setAttribute("aria-expanded","false")})),t.forEach((function(t){t.addEventListener("click",(function(){"false"===e.getAttribute("aria-expanded")?e.setAttribute("aria-expanded","true"):e.setAttribute("aria-expanded","false")}))}))})();
