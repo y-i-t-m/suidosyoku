@@ -1992,6 +1992,7 @@ textarea {
 }
 
 .l-header {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   background-color: #fff;
@@ -2166,6 +2167,12 @@ textarea {
   border-radius: 4px;
 }
 
+@media screen and (max-width: 959.5px) {
+  .bubble-yellow.-second {
+    max-width: 100%;
+  }
+}
+
 .bubble-yellow::before {
   content: "";
   display: block;
@@ -2178,6 +2185,16 @@ textarea {
   border-style: solid;
   border-width: 4px 0 4px 8px;
   border-color: transparent transparent transparent yellow;
+}
+
+@media screen and (max-width: 959.5px) {
+  .bubble-yellow.-second::before {
+    top: auto;
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -12%;
+  }
 }
 
 .bubble-yellow__text {
@@ -3485,6 +3502,7 @@ button.swiper-pagination-bullet {
   .toggle-nav {
     width: 30%;
     transform: translateX(400%);
+    padding-top: 200px;
   }
 }
 
@@ -5033,7 +5051,7 @@ button.swiper-pagination-bullet {
 }
 
 .water {
-  height: 40vh;
+  height: 400px;
   object-fit: cover;
   object-position: top left;
 }
@@ -5083,7 +5101,7 @@ button.swiper-pagination-bullet {
 }
 
 .banner__bg {
-  height: 45vh;
+  height: 450px;
   object-fit: cover;
   object-position: center;
 }
@@ -5230,6 +5248,7 @@ button.swiper-pagination-bullet {
 }
 
 .tel-banner {
+  position: -webkit-sticky;
   position: sticky;
   bottom: 0;
   z-index: 6;

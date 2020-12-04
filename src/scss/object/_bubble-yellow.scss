@@ -7,6 +7,12 @@
   padding: .25rem 0;
   border-radius: 4px;
 
+  &.-second {
+    @include breakpoint-down(ml) {
+      max-width: 100%;
+    }
+  }
+
   &::before {
     content: "";
     display: block;
@@ -14,7 +20,17 @@
     top: 50%;
     right: -7%;
     transform: translateY(-50%);
-    @include triangle(right,8px,8px,yellow);
+    @include triangle(right, 8px, 8px, yellow);
+  }
+
+  &.-second::before {
+    @include breakpoint-down(ml) {
+      top: auto;
+      right: auto;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: -12%;
+    }
   }
 
   &__text {
@@ -27,7 +43,7 @@
     }
 
     &-bottom {
-     letter-spacing: ls(0);
+      letter-spacing: ls(0);
       font-size: rem(14);
     }
   }

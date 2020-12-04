@@ -5,6 +5,8 @@ const fs = require('fs');
 const replace = require('gulp-replace');
 const sass = require('gulp-sass');
 const sassGlob = require("gulp-sass-glob");
+// const postcss = require("gulp-postcss");
+// const autoprefixer = require("autoprefixer");
 const webpackStream = require('webpack-stream');
 const webpack = require('webpack');
 const webpackConfig = require('./webpack.config');
@@ -61,6 +63,13 @@ const compileSass = (done) => {
       outputStyle: 'expanded'
     })
   )
+  // .pipe(postcss([
+  //   autoprefixer({
+  //     // ☆IEは11以上、Androidは4.4以上
+  //     // その他は最新2バージョンで必要なベンダープレフィックスを付与する設定
+  //     cascade: false
+  //   })
+  // ]))
   .on('error', sass.logError)
   .pipe(gulp.dest(destCssDir));
   done();
@@ -99,7 +108,7 @@ const minifyImage = (done) => {
   gulp.src(srcImgFiles + srcImgFileType)
   .pipe(imagemin(
     [
-      pngquant({quality:[ 0.65, 0.8 ], speed: 1}),
+      pngquant({quality: [0.65, 0.8], speed: 1}),
       mozjpeg({quality: 80}),
       imagemin.svgo(),
       imagemin.gifsicle()

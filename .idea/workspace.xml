@@ -20,28 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f23cb06a-fd2c-4595-9860-9d2299425905" name="デフォルト変更リスト" comment="">
-      <change afterPath="$PROJECT_DIR$/src/scss/object/_swiper.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ts/modules/_swiper.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dest/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dest/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dest/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dest/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dest/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dest/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejs/block/_footer.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejs/block/_footer.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejs/block/_header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejs/block/_header.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejs/block/_hero.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejs/block/_hero.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ejs/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejs/index.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/layout/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/object/_chevron-card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/object/_chevron-card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/object/_fnav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/object/_fnav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/object/_hamburger-button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/object/_hamburger-button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/object/_section-heading.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/object/_section-heading.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/object/_bubble-yellow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/object/_bubble-yellow.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/object/_toggle-nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/object/_toggle-nav.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/utility/_other.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/utility/_other.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ts/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ts/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ts/modules/_accordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ts/modules/accordion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +114,8 @@
       <workItem from="1606461650901" duration="692000" />
       <workItem from="1606462642853" duration="8249000" />
       <workItem from="1606476108080" duration="34546000" />
-      <workItem from="1606695684087" duration="99110000" />
+      <workItem from="1606695684087" duration="100235000" />
+      <workItem from="1607062252604" duration="6151000" />
     </task>
     <task id="LOCAL-00001" summary="あ">
       <created>1606543726016</created>
@@ -162,18 +152,19 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="359" y="231" key="#Notifications/0.0.1280.800/1280.0.2560.1080@0.0.1280.800" timestamp="1606809095390" />
-    <state x="381" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606707882485">
+    <state x="381" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607065695939">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="381" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800/1280.0.2560.1080@0.0.1280.800" timestamp="1606707882485" />
+    <state x="381" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800/1280.0.2560.1080@0.0.1280.800" timestamp="1607065695939" />
     <state x="429" y="243" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1606486339383" />
     <state x="222" y="82" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1607056104428">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="222" y="82" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1280.800/1280.0.2560.1080@0.0.1280.800" timestamp="1607056104428" />
-    <state x="144" y="79" key="DiffContextDialog" timestamp="1606543749932">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="1446" y="69" width="1433" height="847" key="DiffContextDialog" timestamp="1607068574555">
+      <screen x="1280" y="0" width="2560" height="1080" />
     </state>
+    <state x="1446" y="69" width="1433" height="847" key="DiffContextDialog/0.0.1280.800/1280.0.2560.1080@0.0.1280.800" timestamp="1607068574555" />
     <state x="144" y="79" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1606543749932" />
     <state width="1388" height="311" key="GridCell.Tab.0.bottom" timestamp="1606641583711">
       <screen x="0" y="0" width="1440" height="900" />
@@ -207,19 +198,19 @@
       <screen x="1280" y="0" width="2560" height="1080" />
     </state>
     <state x="1708" y="123" width="1572" height="777" key="dock-window-3/0.0.1280.800/1280.0.2560.1080@0.0.1280.800" timestamp="1606726314778" />
-    <state x="2896" y="52" width="729" height="898" key="dock-window-4" timestamp="1607045455367">
+    <state x="2896" y="52" width="729" height="898" key="dock-window-4" timestamp="1607062378428">
       <screen x="1280" y="0" width="2560" height="1080" />
     </state>
-    <state x="2896" y="52" width="729" height="898" key="dock-window-4/0.0.1280.800/1280.0.2560.1080@0.0.1280.800" timestamp="1607045455367" />
+    <state x="2896" y="52" width="729" height="898" key="dock-window-4/0.0.1280.800/1280.0.2560.1080@0.0.1280.800" timestamp="1607062378428" />
     <state x="3104" y="38" width="729" height="898" key="dock-window-4/49.0.1231.800/1280.23.2560.1057@49.0.1231.800" timestamp="1606984580095" />
-    <state x="1523" y="23" width="984" height="623" key="dock-window-5" timestamp="1607041849244">
+    <state x="1523" y="23" width="984" height="623" key="dock-window-5" timestamp="1607062378430">
       <screen x="1280" y="0" width="2560" height="1080" />
     </state>
-    <state x="1523" y="23" width="984" height="623" key="dock-window-5/0.0.1280.800/1280.0.2560.1080@0.0.1280.800" timestamp="1607041849244" />
-    <state x="274" y="139" width="731" height="580" key="find.popup" timestamp="1607060518145">
+    <state x="1523" y="23" width="984" height="623" key="dock-window-5/0.0.1280.800/1280.0.2560.1080@0.0.1280.800" timestamp="1607062378430" />
+    <state x="274" y="139" width="731" height="580" key="find.popup" timestamp="1607078455672">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="274" y="139" width="731" height="580" key="find.popup/0.0.1280.800/1280.0.2560.1080@0.0.1280.800" timestamp="1607060518145" />
+    <state x="274" y="139" width="731" height="580" key="find.popup/0.0.1280.800/1280.0.2560.1080@0.0.1280.800" timestamp="1607078455672" />
     <state x="311" y="139" width="705" height="580" key="find.popup/47.0.1233.800/1280.23.2560.1057@47.0.1233.800" timestamp="1607045337957" />
   </component>
 </project>
