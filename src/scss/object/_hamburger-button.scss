@@ -5,6 +5,7 @@
   border-radius: 4px;
   border: 1px solid #ddd;
   display: inline-block;
+  z-index: 9999;
   @include breakpoint-down(md) {
     width: 54px;
     height: 54px;

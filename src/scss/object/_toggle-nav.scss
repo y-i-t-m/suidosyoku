@@ -6,8 +6,31 @@
   height: 100vh;
   background-color: #cae9f9;
   z-index: 100;
-  padding: 1.5rem;
+  padding: 20% 1.5rem 0;
+  transform: translateX(100%);
+  transition: transform .3s;
 
+  @include breakpoint(md) {
+    width: 50%;
+    transform: translateX(200%);
+  }
+
+  @include breakpoint(ml) {
+    width: 30%;
+    transform: translateX(400%);
+  }
+
+
+  &.active {
+    transform: translateX(0);
+
+    @include breakpoint(md) {
+      transform: translateX(100%);
+    }
+    @include breakpoint(ml) {
+      transform: translateX(240%);
+    }
+  }
   &__logo {
     max-width: 200px;
     width: 100%;

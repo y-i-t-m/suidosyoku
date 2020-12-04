@@ -8,6 +8,10 @@
   &.-area {
     @include breakpoint-down(md) {
       position: relative;
+      top: -48px;
+    }
+    @include breakpoint-down(xs) {
+      position: relative;
       top: -100px;
     }
   }

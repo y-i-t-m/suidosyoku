@@ -2,7 +2,7 @@
   position: sticky;
   top: 0;
   background-color: #fff;
-  z-index: z-index(header);
+  z-index: 150;
   padding-bottom: 3.5rem;
   @include breakpoint-down(lg) {
     padding-bottom: 0;

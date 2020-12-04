@@ -154,6 +154,14 @@
   @include breakpoint-down(md) {
     width: 312px;
     left: 42%;
+    transform: translate(-50%, 96px);
+  }
+
+  @include breakpoint-down(sm) {
+    transform: translate(-50%, 144px);
+  }
+
+  @include breakpoint-down(xs) {
     transform: translate(-50%, 200px);
   }
 }
@@ -307,4 +315,13 @@
 
 .-border-bottom-white {
   border-bottom: 1px solid #fff;
+}
+
+.tel-banner {
+  position: sticky;
+  bottom: 0;
+  z-index: 6;
+  @include breakpoint(md) {
+    display: none;
+  }
 }

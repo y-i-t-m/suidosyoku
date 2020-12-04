@@ -40,6 +40,10 @@
 }
 
 .fnav-sp__acc {
+  display: none;
+  &[aria-hidden="false"] {
+    display: block;
+  }
 
   &-item {
     margin-top: 8px;
