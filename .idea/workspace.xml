@@ -20,27 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f23cb06a-fd2c-4595-9860-9d2299425905" name="デフォルト変更リスト" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ejs/area/index.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejs/commitment/index.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejs/company/index.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejs/harry/index.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejs/service/bath/index.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejs/service/drainage/index.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejs/service/faucet-pillar/index.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejs/service/index.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejs/service/kitchen/index.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejs/service/senmen/index.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejs/service/toilet/index.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejs/service/washroom/index.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejs/service/water-heater/index.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dest/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dest/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejs/base/_head.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejs/base/_head.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejs/block/_footer.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejs/block/_footer.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejs/block/_gnav.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejs/block/_gnav.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejs/block/_header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejs/block/_header.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejs/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejs/index.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/json/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/json/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejs/commitment/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejs/commitment/index.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +123,7 @@
       <workItem from="1607062252604" duration="6214000" />
       <workItem from="1607301510783" duration="362000" />
       <workItem from="1607497228891" duration="650000" />
-      <workItem from="1607914967871" duration="11167000" />
+      <workItem from="1607914967871" duration="13862000" />
     </task>
     <task id="LOCAL-00001" summary="あ">
       <created>1606543726016</created>
