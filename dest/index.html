@@ -12,8 +12,8 @@
     <meta property="og:image" content="./img/ogp.png">
     <meta property="og:site_name" content="おおさか水道職人">
     <meta property="og:description" content="大阪水道職人のテキストが入ります。">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/main.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js" defer></script>
 </head>
 <body>
 <header class="l-header sticky">
@@ -22,7 +22,7 @@
             <div class="l-header__inner relative">
                 <div class="l-header__left">
                     <div class="l-header__logo">
-                        <h1><a href="/"><img class="img" src="../../img/logo.png" width="268" height="62"
+                        <h1><a href="/"><img class="img" src="./img/logo.png" width="268" height="62"
                                         decoding="async"
                                         alt="水のサポート おおさか水道職人"></a></h1>
                     </div>
@@ -33,14 +33,14 @@
                     <div class="l-header__tel _mr-8 _mr-md-16">
                         <p class="_fz-12 _fwb _t-right _d-none _d-md-block">年中無休・24時間受付・お見積り無料</p>
                         <div class="l-header__tel-img">
-<!--                            <a href="tel:0120492315">-->
-                                <picture>
-                                    <source srcset="../../img/tel_sp.jpg"
-                                            media="(max-width: 767px)">
-                                    <img class="" src="../../img/tel.png" width="318" height="50" decoding="async"
-                                            alt="おおさか水道職人へ繋がる電話番号">
-                                </picture>
-<!--                            </a>-->
+                            <!--                            <a href="tel:0120492315">-->
+                            <picture>
+                                <source srcset="./img/tel_sp.jpg"
+                                        media="(max-width: 767px)">
+                                <img class="" src="./img/tel.png" width="318" height="50" decoding="async"
+                                        alt="おおさか水道職人へ繋がる電話番号">
+                            </picture>
+                            <!--                            </a>-->
                         </div>
                     </div>
                     <button id="hamburgerButton" class="hamburger-button" type="button" aria-expanded="false"
@@ -53,27 +53,42 @@
                 </div>
                 <div class="l-header__nav">
                     <nav class="gnav">
-    <ul class="gnav__list">
-        <li class="gnav__item"><a class="gnav__link" href="/">トップ</a></li>
-        <li class="gnav__item"><a class="gnav__link" href="/">水道職人のこだわり</a></li>
-        <li class="gnav__item -popup"><a class="gnav__link" href="/">サービス内容と料金</a>
-            <ul class="popup-list">
-                <li class="popup-list__item"><a class="popup-list__link" href="">トイレの水漏れ・つまり</a></li>
-                <li class="popup-list__item"><a class="popup-list__link" href="">キッチンの水漏れ・つまり</a></li>
-                <li class="popup-list__item"><a class="popup-list__link" href="">お風呂の水漏れ・つまり</a></li>
-                <li class="popup-list__item"><a class="popup-list__link" href="">洗面所の水漏れ・つまり</a></li>
-                <li class="popup-list__item"><a class="popup-list__link" href="">給湯器の水漏れ・つまり</a></li>
-                <li class="popup-list__item"><a class="popup-list__link" href="">排水口・排水管の水漏れ・つまり</a></li>
-                <li class="popup-list__item"><a class="popup-list__link -border-none" href="">屋外・水栓柱の水漏れ・つまり</a></li>
-            </ul>
-        </li>
-        <li class="gnav__item"><a class="gnav__link" href="/">対応エリア</a></li>
-        <li class="gnav__item"><a class="gnav__link" href="/">お客様の声・施工日記</a></li>
-        <li class="gnav__item"><a class="gnav__link" href="/">会社案内</a></li>
-        <li class="gnav__item"><a class="gnav__link" href="/"><span class="nav-bubble">急なトラブルにも対応！</span>お急ぎの方はこちら<span
-                        class="chevron -nav _ml-8"></span></a></li>
-    </ul>
-</nav>
+                        <ul class="gnav__list">
+                            <li class="gnav__item"><a class="gnav__link" href="./">トップ</a></li>
+                            <li class="gnav__item"><a class="gnav__link" href="./commitment">水道職人のこだわり</a>
+                            </li>
+                            <li class="gnav__item -popup"><a class="gnav__link"
+                                        href="./service">サービス内容と料金</a>
+                                <ul class="popup-list">
+                                    <li class="popup-list__item"><a class="popup-list__link"
+                                                href="./toilet">トイレの水漏れ・つまり</a>
+                                    </li>
+                                    <li class="popup-list__item"><a class="popup-list__link"
+                                                href="./kitchen">キッチンの水漏れ・つまり</a>
+                                    </li>
+                                    <li class="popup-list__item"><a class="popup-list__link"
+                                                href="./bath">お風呂の水漏れ・つまり</a></li>
+                                    <li class="popup-list__item"><a class="popup-list__link"
+                                                href="./washroom">洗面所の水漏れ・つまり</a>
+                                    </li>
+                                    <li class="popup-list__item"><a class="popup-list__link"
+                                                href="./">給湯器の水漏れ・つまり</a>
+                                    </li>
+                                    <li class="popup-list__item"><a class="popup-list__link" href="./">排水口・排水管の水漏れ・つまり</a>
+                                    </li>
+                                    <li class="popup-list__item"><a class="popup-list__link -border-none"
+                                                href="./">屋外・水栓柱の水漏れ・つまり</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="gnav__item"><a class="gnav__link" href="./area">対応エリア</a></li>
+                            <li class="gnav__item"><a class="gnav__link" href="./">お客様の声・施工日記</a></li>
+                            <li class="gnav__item"><a class="gnav__link" href="./company">会社案内</a></li>
+                            <li class="gnav__item"><a class="gnav__link" href="./harry"><span
+                                            class="nav-bubble">急なトラブルにも対応！</span>お急ぎの方はこちら<span
+                                            class="chevron -nav _ml-8"></span></a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </div>
@@ -82,8 +97,8 @@
 <div id="toggleNav" class="toggle-nav">
     <nav class="_mt-24 _pb-16 -border-bottom-white">
         <ul class="_fz-15">
-            <li><a class="_pt-8 _pb-8" href=""><span class="chevron _mr-8"></span>大阪の水漏れ修理&nbsp;おおさか水道職人</a></li>
-            <li><a class="_pt-8 _pb-8" href=""><span class="chevron _mr-8"></span>サービス内容と料金</a>
+            <li><a class="_pt-8 _pb-8" href="/"><span class="chevron _mr-8"></span>大阪の水漏れ修理&nbsp;おおさか水道職人</a></li>
+            <li><a class="_pt-8 _pb-8" href="../service"><span class="chevron _mr-8"></span>サービス内容と料金</a>
                 <ul class="_pl-16">
                     <li><a href="">- トイレの水漏れ・つまり</a></li>
                     <li><a href="">- キッチンの水漏れ・つまり</a></li>
@@ -94,14 +109,14 @@
                     <li><a href="">- 屋外・水栓柱の水漏れ・つまり</a></li>
                 </ul>
             </li>
-            <li><a class="_pt-8 _pb-8" href=""><span class="chevron _mr-8"></span>水道職人のこだわり</a></li>
-            <li><a class="_pt-8 _pb-8" href=""><span class="chevron _mr-8"></span>対応エリア</a></li>
+            <li><a class="_pt-8 _pb-8" href="../commitment"><span class="chevron _mr-8"></span>水道職人のこだわり</a></li>
+            <li><a class="_pt-8 _pb-8" href="../area"><span class="chevron _mr-8"></span>対応エリア</a></li>
             <li><a class="_pt-8 _pb-8" href=""><span class="chevron _mr-8"></span>お客様の声・施工日記</a></li>
             <li><a class="_pt-8 _pb-8" href=""><span class="chevron _mr-8"></span>水のコラム</a></li>
-            <li><a class="_pt-8 _pb-8" href=""><span class="chevron _mr-8"></span>会社案内</a></li>
+            <li><a class="_pt-8 _pb-8" href="../company"><span class="chevron _mr-8"></span>会社案内</a></li>
         </ul>
     </nav>
-    <a href="" class="red-button _mt-12">お急ぎの方はこちら</a>
+    <a href="../harry" class="red-button _mt-12">お急ぎの方はこちら</a>
 </div>
 <main class="l-main">
     <section class="l-hero">
@@ -869,47 +884,47 @@
             </div>
         </div>
     </section>
-    <section class="_mt-160 _mt-md-0">
-        <div class="relative">
-            <h2 class="banner__head _lh-1 _w-full _t-center _d-none _d-md-block"><span
-                        class="_fz-60 _c-yellow">お急ぎの方</span>は<span
-                        class="_fz-60">お電話</span>ください！</h2>
-            <img class="banner__bg _d-none _d-md-block" src="../img/bg_02.jpg" width="1500" height="434"
-                    alt="">
-            <div class="container relative">
-                <div class="women _d-none _d-md-block">
-                    <img src="../img/women.png" width="241" height="304" alt="">
-                </div>
-                <div class="banner">
-                    <!--                    <a href="tel:0120492315">-->
-                    <picture>
-                        <source srcset="../img/banner_bottom_sp.jpg"
-                                media="(max-width: 767px)">
-                        <img src="../img/hero_banner.png" width="944" height="300"
-                                alt="WEBをご覧になった方限定！「ウェブを見た」とお問い合わせで3000円OFF いますぐお電話 0120-492-315">
-                    </picture>
-                    <!--                    </a>-->
-                </div>
+<section class="_mt-160 _mt-md-0">
+    <div class="relative">
+        <h2 class="banner__head _lh-1 _w-full _t-center _d-none _d-md-block"><span
+                    class="_fz-60 _c-yellow">お急ぎの方</span>は<span
+                    class="_fz-60">お電話</span>ください！</h2>
+        <img class="banner__bg _d-none _d-md-block" src="../img/bg_02.jpg" width="1500" height="434"
+                alt="">
+        <div class="container relative">
+            <div class="women _d-none _d-md-block">
+                <img src="../img/women.png" width="241" height="304" alt="">
+            </div>
+            <div class="banner">
+                <!--                    <a href="tel:0120492315">-->
+                <picture>
+                    <source srcset="../img/banner_bottom_sp.jpg"
+                            media="(max-width: 767px)">
+                    <img src="../img/hero_banner.png" width="944" height="300"
+                            alt="WEBをご覧になった方限定！「ウェブを見た」とお問い合わせで3000円OFF いますぐお電話 0120-492-315">
+                </picture>
+                <!--                    </a>-->
             </div>
         </div>
-        <div class="swiper-container slider01">
-            <div class="swiper-wrapper -top loop">
-                <div class="swiper-slide"><img src="../img/slide1.jpg" width="260" height="173" alt="台所"></div>
-                <div class="swiper-slide"><img src="../img/slide2.jpg" width="260" height="173" alt="トイレ"></div>
-                <div class="swiper-slide"><img src="../img/slide3.jpg" width="260" height="173" alt="お風呂"></div>
-                <div class="swiper-slide"><img src="../img/slide4.jpg" width="260" height="173" alt="キッチン"></div>
-                <div class="swiper-slide"><img src="../img/slide5.jpg" width="260" height="173" alt="洗面所"></div>
-            </div>
+    </div>
+    <div class="swiper-container slider01">
+        <div class="swiper-wrapper -top loop">
+            <div class="swiper-slide"><img src="../img/slide1.jpg" width="260" height="173" alt="台所"></div>
+            <div class="swiper-slide"><img src="../img/slide2.jpg" width="260" height="173" alt="トイレ"></div>
+            <div class="swiper-slide"><img src="../img/slide3.jpg" width="260" height="173" alt="お風呂"></div>
+            <div class="swiper-slide"><img src="../img/slide4.jpg" width="260" height="173" alt="キッチン"></div>
+            <div class="swiper-slide"><img src="../img/slide5.jpg" width="260" height="173" alt="洗面所"></div>
         </div>
-        <!--        <img src="../img/gallery.jpg" height="173" width="1500" alt="">-->
-        <div class="container">
-            <p class="_fz-14 _lh-2 _ls-150 _mt-32 _mb-48">
-                おおさか水道職人は大阪市に拠点を持ち、蛇口からの水漏れやトイレのつまりなど、水まわりで起こるあらゆるトラブルに年中無休で対応可能な水道修理のプロ集団です。おおさか水道職人は大阪市・堺市・能勢町・豊能町・池田市・箕面市・豊中市・茨木市・高槻市・島本町・吹田市・摂津市・枚方市・交野市・寝屋川市・守口市・門真市・四條畷市・大東市・東大阪市・八尾市・柏原市・和泉市・高石市・泉大津市・忠岡町・岸和田市・貝塚市・熊取町・泉佐野市・田尻町・泉南市・阪南市岬町・松原市・羽曳野市・藤井寺市・太子町・河南町・千早赤阪村・富田林市・大阪狭山市・河内長野市など大阪府内全エリアで起きた水道トラブルに対して２４時間体制で電話やメールにて受け付けを行っており、急なトラブルでも３６５日駆けつけ対応が可能です。気になる作業料金ですが、水道職人では実際に作業スタッフが現場を確認し、無料でお見積りをご提示させていただきます。お見積り内容にご納得いただいた場合にのみ作業を行わせていただきますので、安心してご依頼くださいお支払方法は、作業完了後の現金支払い以外にも各種クレジットカードや銀行振り込み、コンビニ決済と急なトラブルで手持ちがない時でもご安心いただけるようご用意しております。作業は地元大阪に常駐する自社スタッフが、現場の確認から修理作業の完了報告まで迅速・丁寧にご対応いたします。身のまわりで発生した水道管からの漏水、トイレ・お風呂・洗面所でのつまりや蛇口からの水漏れ、給湯器のトラブル全般でお困りの場合にはおおさか水道職人にお任せください。</p>
-            <p class="_fz-14 _c-gray _mb-16"><img class="_w-auto _d-inline-block _mr-8" src="../img/icon_house.png"
-                        width="13" height="10" alt="">大阪の水漏れ修理&nbsp;&nbsp;おおさか水道職人
-            </p>
-        </div>
-    </section>
+    </div>
+    <!--        <img src="../img/gallery.jpg" height="173" width="1500" alt="">-->
+    <div class="container">
+        <p class="_fz-14 _lh-2 _ls-150 _mt-32 _mb-48">
+            おおさか水道職人は大阪市に拠点を持ち、蛇口からの水漏れやトイレのつまりなど、水まわりで起こるあらゆるトラブルに年中無休で対応可能な水道修理のプロ集団です。おおさか水道職人は大阪市・堺市・能勢町・豊能町・池田市・箕面市・豊中市・茨木市・高槻市・島本町・吹田市・摂津市・枚方市・交野市・寝屋川市・守口市・門真市・四條畷市・大東市・東大阪市・八尾市・柏原市・和泉市・高石市・泉大津市・忠岡町・岸和田市・貝塚市・熊取町・泉佐野市・田尻町・泉南市・阪南市岬町・松原市・羽曳野市・藤井寺市・太子町・河南町・千早赤阪村・富田林市・大阪狭山市・河内長野市など大阪府内全エリアで起きた水道トラブルに対して２４時間体制で電話やメールにて受け付けを行っており、急なトラブルでも３６５日駆けつけ対応が可能です。気になる作業料金ですが、水道職人では実際に作業スタッフが現場を確認し、無料でお見積りをご提示させていただきます。お見積り内容にご納得いただいた場合にのみ作業を行わせていただきますので、安心してご依頼くださいお支払方法は、作業完了後の現金支払い以外にも各種クレジットカードや銀行振り込み、コンビニ決済と急なトラブルで手持ちがない時でもご安心いただけるようご用意しております。作業は地元大阪に常駐する自社スタッフが、現場の確認から修理作業の完了報告まで迅速・丁寧にご対応いたします。身のまわりで発生した水道管からの漏水、トイレ・お風呂・洗面所でのつまりや蛇口からの水漏れ、給湯器のトラブル全般でお困りの場合にはおおさか水道職人にお任せください。</p>
+        <p class="_fz-14 _c-gray _mb-16"><img class="_w-auto _d-inline-block _mr-8" src="../img/icon_house.png"
+                    width="13" height="10" alt="">大阪の水漏れ修理&nbsp;&nbsp;おおさか水道職人
+        </p>
+    </div>
+</section>
 </main>
 <footer class="l-footer">
     <div class="container">
@@ -920,11 +935,11 @@
                                     alt="水のサポート おおさか水道職人"></a></h1>
                 </div>
                 <div class="l-footer__tel">
-<!--                    <a href="tel:0120492315">-->
-                        <img class="_w-auto _w-md-full" src="../../img/tel.png" width="318" height="50"
-                                decoding="async"
-                                alt="おおさか水道職人へ繋がる電話番号">
-<!--                    </a>-->
+                    <!--                    <a href="tel:0120492315">-->
+                    <img class="_w-auto _w-md-full" src="../../img/tel.png" width="318" height="50"
+                            decoding="async"
+                            alt="おおさか水道職人へ繋がる電話番号">
+                    <!--                    </a>-->
                     <p class="_fz-12 _fwb _pl-md-32 _t-center _t-md-left _mt-8 _mt-md-0">年中無休・24時間受付・お見積り無料</p>
                 </div>
                 <address class="_t-center _t-md-left _mt-8 _mt-md-0">〒000-0000<br>大阪府〇〇〇〇〇〇〇〇〇〇〇〇</address>
@@ -1041,7 +1056,8 @@
         </div>
     </div>
     <div class="_pt-16 _pb-16 _bg-main _mt-40">
-        <p class="l-footer__copy _c-white _fz-12 _t-center"><small>Copyright ©おおさか水道職人. All Rights Reserved.</small></p>
+        <p class="l-footer__copy _c-white _fz-12 _t-center"><small>Copyright ©おおさか水道職人. All Rights Reserved. </small>
+        </p>
     </div>
 </footer>
 <div class="tel-banner sticky">

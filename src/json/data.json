@@ -1,10 +1,31 @@
 {
   "data": {
-    "seo": {
-      "title": "おおさか水道職人",
-      "description": "大阪水道職人のテキストが入ります。",
-      "siteUrl": "https://google.com",
-      "siteImg": "./img/ogp.png"
+    "top": {
+      "seo": {
+        "title": "おおさか水道職人",
+        "description": "大阪水道職人のテキストが入ります。",
+        "siteUrl": "https://google.com",
+        "siteImg": "./img/ogp.png",
+        "path": "./"
+      }
+    },
+    "second": {
+      "seo": {
+        "title": "おおさか水道職人",
+        "description": "大阪水道職人のテキストが入ります。",
+        "siteUrl": "https://google.com",
+        "siteImg": "../img/ogp.png",
+        "path": "../"
+      }
+    },
+    "third": {
+      "seo": {
+        "title": "おおさか水道職人",
+        "description": "大阪水道職人のテキストが入ります。",
+        "siteUrl": "https://google.com",
+        "siteImg": "../../img/ogp.png",
+        "path": "../../"
+      }
     },
     "footer": {
       "copyright": "Copyright ©おおさか水道職人. All Rights Reserved."
