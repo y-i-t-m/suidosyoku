@@ -1,0 +1,16 @@
+.second_hero {
+
+  &__inner {
+    background-image: url("../../img/commintment/hero.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0fb3ec;
+    text-align: center;
+  }
+}

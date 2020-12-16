@@ -4,23 +4,23 @@
 // *   class="_pt-md-auto" -> [md以上] padding-top: auto;
 // ************************************************
 $configMap: (
-  prefix: _pt,
-  propName: padding-top,
-  props: (
-    0: 0,
-    8: rem(8),
-    12: rem(12),
-    16: rem(16),
-    24: rem(24),
-    32: rem(32),
-    40: rem(40),
-    48: rem(48),
-    64: rem(64),
-    72: rem(72),
-    80: rem(80),
-    96: rem(96),
-    120: rem(120),
-  )
+        prefix: _pt,
+        propName: padding-top,
+        props: (
+                0: 0,
+                8: rem(8),
+                12: rem(12),
+                16: rem(16),
+                24: rem(24),
+                32: rem(32),
+                40: rem(40),
+                48: rem(48),
+                64: rem(64),
+                72: rem(72),
+                80: rem(80),
+                96: rem(96),
+                120: rem(120),
+        )
 );
 $isImportant: true;
 
@@ -33,20 +33,23 @@ $isImportant: true;
 // *   class="_pr-md-auto" -> [md以上] padding-right: auto;
 // ************************************************
 $configMap: (
-  prefix: _pr,
-  propName: padding-right,
-  props: (
-    0: 0,
-    8: rem(8),
-    16: rem(16),
-    32: rem(32),
-    40: rem(40),
-    48: rem(48),
-    64: rem(64),
-    72: rem(72),
-    80: rem(80),
-    96: rem(96),
-  )
+        prefix: _pr,
+        propName: padding-right,
+        props: (
+                0: 0,
+                8: rem(8),
+                12: rem(12),
+                16: rem(16),
+                24: rem(24),
+                32: rem(32),
+                40: rem(40),
+                48: rem(48),
+                64: rem(64),
+                72: rem(72),
+                80: rem(80),
+                96: rem(96),
+                120: rem(120),
+        )
 );
 $isImportant: true;
 
@@ -59,24 +62,24 @@ $isImportant: true;
 // *   class="_pb-md-auto" -> [md以上] padding-bottom: auto;
 // ************************************************
 $configMap: (
-  prefix: _pb,
-  propName: padding-bottom,
-  props: (
-    0: 0,
-    8: rem(8),
-    12: rem(12),
-    16: rem(16),
-    24: rem(24),
-    32: rem(32),
-    40: rem(40),
-    48: rem(48),
-    64: rem(64),
-    72: rem(72),
-    80: rem(80),
-    96: rem(96),
-    120: rem(120),
-    144: rem(144),
-  )
+        prefix: _pb,
+        propName: padding-bottom,
+        props: (
+                0: 0,
+                8: rem(8),
+                12: rem(12),
+                16: rem(16),
+                24: rem(24),
+                32: rem(32),
+                40: rem(40),
+                48: rem(48),
+                64: rem(64),
+                72: rem(72),
+                80: rem(80),
+                96: rem(96),
+                120: rem(120),
+                144: rem(144),
+        )
 );
 $isImportant: true;
 
@@ -89,20 +92,23 @@ $isImportant: true;
 // *   class="_pl-md-auto" -> [md以上] padding-left: auto;
 // ************************************************
 $configMap: (
-  prefix: _pl,
-  propName: padding-left,
-  props: (
-    0: 0,
-    8: rem(8),
-    16: rem(16),
-    32: rem(32),
-    40: rem(40),
-    48: rem(48),
-    64: rem(64),
-    72: rem(72),
-    80: rem(80),
-    96: rem(96),
-  )
+        prefix: _pl,
+        propName: padding-left,
+        props: (
+                0: 0,
+                8: rem(8),
+                12: rem(12),
+                16: rem(16),
+                24: rem(24),
+                32: rem(32),
+                40: rem(40),
+                48: rem(48),
+                64: rem(64),
+                72: rem(72),
+                80: rem(80),
+                96: rem(96),
+                120: rem(120),
+        )
 );
 $isImportant: true;
 

@@ -3,15 +3,14 @@
 <main class="l-main">
     <div class="second_hero">
         <div class="second_hero__inner">
-            <h2 class="_t-center">水道職人のこだわり</h2>
+            <h2 class="second_hero__title">水道職人のこだわり</h2>
         </div>
     </div>
     <section>
         <div class="container">
-            <h3></h3>
+            <h3><span></span></h3>
             <img src="../../img/commintment/gallery.png" width="1143" height="255" alt="">
-            <p>
-                身のまわりで発生する水道管からの漏水、トイレ・お風呂・洗面所でのつまりや蛇口からの水漏れといったトラブルは、日常生活と密接に結びついているからこそ、起こると大変な不便を強いられる事になります。そんな時に頼りになる水道職人のプロとして、私たちは以下の3つのこだわりとお約束で、皆様の水まわりのトラブルに対応いたします。</p>
+            <p>身のまわりで発生する水道管からの漏水、トイレ・お風呂・洗面所でのつまりや蛇口からの水漏れといったトラブルは、日常生活と密接に結びついているからこそ、起こると大変な不便を強いられる事になります。そんな時に頼りになる水道職人のプロとして、私たちは以下の3つのこだわりとお約束で、皆様の水まわりのトラブルに対応いたします。</p>
         </div>
     </section>
     <section>
@@ -43,14 +42,39 @@
                 }
             ]; %>
             <% sec1s.forEach(sec1 => { %>
-
+            <div class="sec1_box">
+                <div class="sec1_box__inner">
+                    <div class="sec1_box__kodawari">
+                        <img src="../../img/commintment/kodawari.png" width="45" height="362" alt="">
+                    </div>
+                    <div class="sec1_box__bubble">
+                        <img src="<%- sec1.numberImg %>" alt="">
+                    </div>
+                    <div class="">
+                        <div class="">
+                            <div class="">
+                                <img src="<%- sec1.heading %>" alt="">
+                            </div>
+                            <div class="">
+                                <p><%- sec1.content %></p>
+                            </div>
+                            <div class="">
+                                <a href="<%- sec1.btnLink %>"><%- sec1.btnText %></a>
+                            </div>
+                        </div>
+                        <div class="">
+                            <img src="<%- sec1.thumbnail %>" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
             <% }); %>
         </div>
     </section>
     <section>
         <div class="container">
             <h3 class="section-heading">皆様へのお約束</h3>
-            <% const diaries = [
+            <% const sec2s = [
                 {
                     headDeco: "お約束01",
                     heading: "お見積りは無料",
@@ -92,18 +116,20 @@
                     content: "いつもおおさか水道職人の修理報告をご覧いただきありがとうございます。[依頼場所] 大阪府〇〇..."
                 }
             ]; %>
-            <div class="">
-                <div class="">
-                    <div class="">
-                        <img src="../../img/commintment/head_deco.png" width="126" height="64" alt="">
-                        <span></span>
+            <% sec2s.forEach(sec2 => { %>
+            <div class="sec2_box">
+                <div class="sec2_box__head">
+                    <div class="head-deco">
+                        <img class="_w-auto" src="../../img/commintment/head_deco.png" width="126" height="64" alt="">
+                        <p class="head-deco__text"><%- sec2.headDeco %></p>
                     </div>
-                    <h4></h4>
+                    <h4 class="sec2_box__heading"><%- sec2.heading %></h4>
                 </div>
-                <div class="">
-                    <p></p>
+                <div class="sec2_box__content">
+                    <p><%- sec2.content %></p>
                 </div>
             </div>
+            <% }); %>
         </div>
     </section>
 <%- include('../block/_footer', {seo: data.second.seo}); %>

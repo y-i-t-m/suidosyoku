@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f23cb06a-fd2c-4595-9860-9d2299425905" name="デフォルト変更リスト" comment="">
+      <change afterPath="$PROJECT_DIR$/src/scss/object/_second_hero.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ejs/commitment/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejs/commitment/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/utility/_padding.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/utility/_padding.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +45,6 @@
   </component>
   <component name="ProjectId" id="1kraPmyZCdF9gOXkrzv4Y5iHdPs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="2" id="追加" />
   </component>
   <component name="ProjectViewState">
@@ -64,7 +65,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -124,6 +125,7 @@
       <workItem from="1607301510783" duration="362000" />
       <workItem from="1607497228891" duration="650000" />
       <workItem from="1607914967871" duration="13862000" />
+      <workItem from="1608037194788" duration="3014000" />
     </task>
     <task id="LOCAL-00001" summary="あ">
       <created>1606543726016</created>
@@ -154,5 +156,23 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="あ" />
     <option name="LAST_COMMIT_MESSAGE" value="あ" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1388" height="156" key="GridCell.Tab.0.bottom" timestamp="1608037299934">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="156" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608037299934" />
+    <state width="1388" height="156" key="GridCell.Tab.0.center" timestamp="1608037299932">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="156" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1608037299932" />
+    <state width="1388" height="156" key="GridCell.Tab.0.left" timestamp="1608037299927">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="156" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1608037299927" />
+    <state width="1388" height="156" key="GridCell.Tab.0.right" timestamp="1608037299933">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="156" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1608037299933" />
   </component>
 </project>
