@@ -1,0 +1,22 @@
+.company-group {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid #ddd;
+
+  &:last-child {
+    border-bottom: 1px solid #ddd;
+  }
+
+  &__head {
+    flex-basis: 20%;
+    max-width: 20%;
+    padding: 24px;
+    background-color: #f9f9f9;
+  }
+
+  &__body {
+    flex-basis: 80%;
+    max-width: 80%;
+    padding: 24px;
+  }
+}

@@ -1,4 +1,158 @@
 <%- include('../base/_head', {seo: data.second.seo}); %>
 <%- include('../block/_header', {seo: data.second.seo}); %>
 <main class="l-main">
+    <div class="second_hero">
+        <div class="second_hero__inner">
+            <h2 class="second_hero__title">サービス内容と料金</h2>
+        </div>
+    </div>
+    <section class="_pt-80 _pb-80">
+        <div class="container">
+            <h3 class="_c-main _fwb _fz-40 _pl-80 _pr-80 _t-center">水まわりで起こる<span
+                        class="_d-inline-block -wavy">あらゆるトラブル</span>に対応！
+            </h3>
+            <p class="_t-center _fwb _pl-80 _pr-80 _fz-18 _ls-150 _mt-32">
+                おおさか水道職人は大阪府内全エリアで起きた水道トラブルに対して24時間体勢で電話やメールにて受け付けを行っており、急なトラブルでも365日駆けつけ対応いたします。</p>
+            <div class="l-grid-ml _mt-64">
+                <% const iconCards = [
+                    {
+                        icon: "../img/icon_toilet.png",
+                        heading: "トイレ",
+                        thumbnail: "../img/top_sec02_toilet.jpg",
+                        komari1: "レバーを回しても水が流れない",
+                        komari2: "トイレと床の間から水漏れしている",
+                        komari3: "トイレタンク、便器から水が漏れている",
+                        alt: "トイレ",
+                        link: "/"
+                    },
+                    {
+                        icon: "../img/icon_kitchen.png",
+                        heading: "キッチン",
+                        thumbnail: "../img/top_sec02_kitchen.jpg",
+                        komari1: "シンク下から水漏れしている",
+                        komari2: "排水口がつまって水が溢れてきた",
+                        komari3: "蛇口を締めても水が止まらない",
+                        alt: "キッチン",
+                        link: "/"
+                    },
+                    {
+                        icon: "../img/icon_bath.png",
+                        heading: "お風呂",
+                        thumbnail: "../img/top_sec02_bath.jpg",
+                        komari1: "蛇口の接続部分から水が漏れる",
+                        komari2: "水を止めてもシャワーから水が垂れ続ける",
+                        komari3: "排水口から嫌な臭いが上がってくる",
+                        alt: "お風呂",
+                        link: "/"
+                    },
+                    {
+                        icon: "../img/icon_washroom.png",
+                        heading: "洗面所",
+                        thumbnail: "../img/top_sec02_washroom.jpg",
+                        komari1: "洗面台下の収納部で水漏れしている",
+                        komari2: "給水管と止水栓の接続部分から水漏れしている",
+                        komari3: "洗面台で排水つまりが起きた",
+                        alt: "洗面所",
+                        link: "/"
+                    }
+                ]; %>
+                <% iconCards.forEach(iconCard => { %>
+                <div class="l-grid-ml__cell -col-md-6 -col-ml-3 _mb-32 _mb-ml-0">
+                    <section class="card-icon">
+                        <div class="card-icon__icon">
+                            <img class="_w-auto" src="<%- iconCard.icon %>" width="72" height="72" alt="">
+                        </div>
+                        <div class="card-icon__inner">
+                            <div class="card-icon__header">
+                                <h3 class="pri-line _t-center _fwb"><span
+                                            class="card-icon__heading -marker"><%- iconCard.heading %></span>&NewLine;<span
+                                            class="_c-main">の水漏れ・つまり</span></h3>
+                                <div class="card-icon__thumbnail _mt-12">
+                                    <img src="<%- iconCard.thumbnail %>" width="260" height="174" alt="">
+                                </div>
+                            </div>
+                            <div class="bubble _mt-8">
+                                <p class="_fz-14 _fwb">こんなお困りごとに</p>
+                            </div>
+                            <div class="_mt-8">
+                                <ul class="_fz-14 _fwb">
+                                    <li><%- iconCard.komari1 %></li>
+                                    <li><%- iconCard.komari2 %></li>
+                                    <li><%- iconCard.komari3 %></li>
+                                </ul>
+                            </div>
+                            <div class="card-icon__body _mt-16">
+                                <div class="bubble-yellow"><p class="bubble-yellow__text pri-line"><span
+                                                class="bubble-yellow__text-top">WEB割ご利用で</span>&NewLine;<strong
+                                                class="bubble-yellow__text-bottom">3,000円OFF</strong></p></div>
+                                <p class="_c-red _fwb _fz-40 _ls-0 _lh-1">2,000<span class="_fz-16 _fwb">円〜</span></p>
+                            </div>
+                            <div class="card-icon__footer _mt-16">
+                                <a class="more-button-rounded -bg-blue-gradient" href="<%- iconCard.link %>">詳細はこちら<span
+                                            class="chevron -more"></span></a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <% }); %>
+            </div>
+            <% const horizontalCards = [
+                {
+                    headingTop: "給湯器ポンプ",
+                    headingBottom: "のトラブル",
+                    thumbnail: "../img/top_sec02_pomp.jpg",
+                    alt: "給湯器",
+                    link: "../"
+                },
+                {
+                    headingTop: "排水口・排水管",
+                    headingBottom: "の水漏れ・つまり",
+                    thumbnail: "../img/top_sec02_haisui.jpg",
+                    alt: "給湯器",
+                    link: "/"
+                },
+                {
+                    headingTop: "屋外・水栓柱",
+                    headingBottom: "の水漏れ・つまり",
+                    thumbnail: "../img/top_sec02_okugai.jpg",
+                    alt: "給湯器",
+                    link: "/"
+                }
+            ]; %>
+            <div class="l-grid-ml _mt-24">
+                <% horizontalCards.forEach(horizontalCard => { %>
+                <div class="l-grid-ml__cell -col-md-6 -col-ml-4">
+                    <section class="card-horizontal">
+                        <div class="card-horizontal__inner">
+                            <div class="card-horizontal__header">
+                                <div class="card-horizontal__thumbnail">
+                                    <img src="<%- horizontalCard.thumbnail %>" width="120" height="180"
+                                            alt="<%- horizontalCard.alt %>">
+                                </div>
+                            </div>
+                            <div class="card-horizontal__body">
+                                <h3 class="_c-main _fwb pri-line">
+                                    <span class="_fz-24"><%- horizontalCard.headingTop %></span>&NewLine;<span><%- horizontalCard.headingBottom %></span>
+                                </h3>
+                                <div class="_dis-center-between _mt-8">
+                                    <div class="bubble-yellow -second"><p class="bubble-yellow__text pri-line"><span
+                                                    class="bubble-yellow__text-top">WEB割ご利用で</span>&NewLine;<strong
+                                                    class="bubble-yellow__text-bottom">3,000円OFF</strong></p></div>
+                                    <p class="_t-right _t-ml-left _fz-32 _fz-ml-24 _fz-md-32 _c-red _fwb _lh-1 _d-flex items-center _mt-8 _mt-ml-0">
+                                        2,000<span
+                                                class="_d-ml-inline-flex flex-col _fz-12"><span>円</span><span>〜</span></span>
+                                    </p>
+                                </div>
+                                <div class="card-horizontal__footer _mt-8">
+                                    <a class="more-button-rounded -bg-blue-gradient" href="<%- horizontalCard.link %>">詳細はこちら<span
+                                                class="chevron -more"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <% }); %>
+            </div>
+        </div>
+    </section>
 <%- include('../block/_footer', {seo: data.second.seo}); %>

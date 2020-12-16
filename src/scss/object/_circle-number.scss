@@ -1,0 +1,14 @@
+.circle-number {
+  border-radius: 999px;
+  background-color: color(main);
+  color: #fff;
+  width: 1.5rem;
+  height: 1.5rem;
+  text-align: center;
+  font-size: rem(14);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0;
+  line-height: 1;
+}

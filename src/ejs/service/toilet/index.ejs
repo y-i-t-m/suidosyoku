@@ -1,4 +1,175 @@
 <%- include('../../base/_head', {seo: data.third.seo}); %>
 <%- include('../../block/_header', {seo: data.third.seo}); %>
 <main class="l-main">
+    <div class="second_hero">
+        <div class="second_hero__inner">
+            <h2 class="second_hero__title">トイレの水漏れ・詰まり</h2>
+        </div>
+    </div>
+    <section>
+        <div class="container">
+            <div class="bg-toilet relative">
+                <div class="">
+                    <img class="_w-auto" src="../../../img/toilet/icon01.png" width="36" height="36" alt="">
+                </div>
+                <div class="_pl-96 _pr-96">
+                    <h2>トイレの水漏れ・つまり・トラブル<br>何でもご相談ください！</h2>
+                    <div class="harry-box _mt-40">
+                        <h2 class="harry-head">こんな<span class="_c-yellow">トラブル</span>が起きたらおおさか水道職人へ！</h2>
+                        <div class="harry-box__inner">
+                            <ul class="check-list">
+                                <% const lists = [
+                                    {
+                                        list: "トイレの水が流れていかない・つまり"
+                                    }, {
+                                        list: "チョロチョロと水が流れる音がする"
+                                    }, {
+                                        list: "タンクから水漏れしている"
+                                    }, {
+                                        list: "便器と床の間から水が漏れている"
+                                    }, {
+                                        list: "パイプのつなぎ目、接続部分から水漏れしている"
+                                    }, {
+                                        list: "タンクに水が溜まらない"
+                                    }, {
+                                        list: "便器の水が止まらない"
+                                    }
+                                ]; %>
+                                <% lists.forEach(list => { %>
+                                <li class="check-list__item _fwb"><img class="_w-auto _d-inline-block _mr-8"
+                                            src="../../../img/check.png" width="16" height="12" alt=""><%- list.list %>
+                                </li>
+                                <% }); %>
+                            </ul>
+                            <p class="_t-right _fwb">など</p>
+                        </div>
+                    </div>
+                    <p class="_mt-24 _ls-150">
+                        トイレのトラブルで一番多くいただくご相談は、トイレのつまりです。原因の多くに、トイレットペーパーの流し過ぎや水に溶けないティッシュペーパーや残飯などの異物を流してしまったことがあげられます。<br>
+                        また、トイレタンク内など部品の劣化による水漏れも多く発生しています。水漏れと言ってもその原因は様々あり、対応方法も異なります。<br>
+                        トラブル原因がわからない、ご自身での対応が難しいと感じた時には、いつでも水道修理のプロ集団「おおさか水道職人」にお任せください。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="_pl-96 _pr-96">
+                <div class="">
+                    <ul class="toilet-nav">
+                        <% const navs = [
+                            {
+                                head: "トイレ（水漏れ）の料金表",
+                                link: "#"
+                            },
+                            {
+                                head: "トイレ（つまり）の料金表",
+                                link: "#"
+                            },
+                            {
+                                head: "ご利用の流れ",
+                                link: "#"
+                            },
+                            {
+                                head: "お客様の声",
+                                link: "#"
+                            }
+                        ]; %>
+                        <% navs.forEach(nav => { %>
+                        <li class="toilet-nav__list"><a class="toilet-nav__link"
+                                    href="<%- nav.link %>"><img class="_w-auto _d-inline-block _pr-8"
+                                        src="../../../img/toilet/chevron-bottom.png" width="20" height="20"
+                                        alt=""><%- nav.head %></a></li>
+                        <% }); %>
+                    </ul>
+                </div>
+                <section class="_pt-80 _pb-80">
+                    <h2 class="section-heading">トイレの料金表</h2>
+                    <h3 class="section-sub-heading">トイレ（水漏れ）の料金表</h3>
+                    <p>タンク内の水が止まらない、便器に流れているという場合には、タンク内の部品の劣化による故障が疑われます。<br>
+                        また、パイプのつなぎ目や便器と床との接続部分から水が漏れてきている時には、被害の拡大を防ぐためにもトイレタンク側にある止水栓を締めることが大切です。水漏れを放置してしまうと、最悪の場合床板を腐らせてしまったり、階下漏水にもつながりますので、いつでもお電話にてご相談ください
+                    </p>
+                    <table class="_w-full table-main">
+                        <thead>
+                        <tr>
+                            <th colspan="3" class="_t-center _c-main _fwb table-cell">作業料金 ＋ 出張費 ＋ 材料費</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr class="_t-center _fwb">
+                            <td class="table-cell">施工内容</td>
+                            <td class="table-cell">施工料金</td>
+                            <td class="table-cell">出張料金</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell">フロートバルブ交換</td>
+                            <td class="_t-center table-cell">1,000円〜</td>
+                            <td rowspan="5" class="_t-center table-cell">3,000円 / 出張1回</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell">ボールタップ部品交換</td>
+                            <td class="_t-center table-cell">3,000円〜</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell">止水栓からの水漏れ</td>
+                            <td class="_t-center table-cell">2,000円〜</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell">給水管交換</td>
+                            <td class="_t-center table-cell">5,000円〜</td>
+                        </tr>
+                        <tr>
+                            <td class="table-cell">タンクレバー交換</td>
+                            <td class="_t-center table-cell">6,000円〜</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>トイレ（水漏れ）の事例</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>事業内容</td>
+                            <td>流した後も水が止まらない</td>
+                        </tr>
+                        <tr>
+                            <td>所要時間</td>
+                            <td>35分</td>
+                        </tr>
+                        <tr>
+                            <td>解決方法</td>
+                            <td>フロートバルブ交換</td>
+                        </tr>
+                        <tr>
+                            <td>解決の流れ</td>
+                            <td>現場を確認すると、フロートバルブの劣化によりできた隙間から水が漏れてきており、止まらなくなってきておりました。部品の交換をご提案し、ご納得いただきましたのですぐに作業を行いました。</td>
+                        </tr>
+                        <tr>
+                            <td>事業内容</td>
+                            <td>流した後も水が止まらない</td>
+                        </tr>
+                        <tr>
+                            <td>事業内容</td>
+                            <td>流した後も水が止まらない</td>
+                        </tr>
+                        <tr>
+                            <td>事業内容</td>
+                            <td>流した後も水が止まらない</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </div>
+        </div>
+    </section>
+    <section class="_pb-80">
+        <div class="container">
+            <div class="_pl-96 _pr-96">
+                <h2 class="section-heading">ご利用の流れ</h2>
+            </div>
+        </div>
+    </section>
 <%- include('../../block/_footer', {seo: data.third.seo}); %>

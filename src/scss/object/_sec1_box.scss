@@ -1,0 +1,32 @@
+.sec1_box {
+  background-color: #fff;
+  position: relative;
+  padding: 4rem;
+
+
+  &__bubble {
+    position: absolute;
+    top: -5%;
+    left: -2%;
+  }
+
+  &__kodawari {
+    position: absolute;
+    left: -1%;
+    top: 15%;
+  }
+
+  &__wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__left {
+    flex: 1 1 0;
+  }
+
+  &__right {
+    flex: 1 1 0;
+    padding-left: 5%;
+  }
+}

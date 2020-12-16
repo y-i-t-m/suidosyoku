@@ -20,7 +20,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f23cb06a-fd2c-4595-9860-9d2299425905" name="デフォルト変更リスト" comment="">
-      <change beforePath="$PROJECT_DIR$/src/ejs/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejs/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/harry-banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/toilet/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/toilet/_r2_c8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/toilet/_r4_c3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/toilet/_r6_c4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/toilet/bg_toilet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/toilet/chevron-bottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/toilet/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/toilet/icon01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/toilet/icon02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/toilet/icon03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/toilet/icon04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/toilet/icon05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/toilet/icon06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/toilet/icon07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/object/_bubble.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/object/_check-list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/object/_circle-number.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/object/_company-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/object/_form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/object/_harry-box.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/object/_head-deco.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/object/_sec1_box.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/object/_sec2_box.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/object/_table.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/object/_toilet.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dest/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dest/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dest/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dest/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejs/block/_footer.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejs/block/_footer.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejs/commitment/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejs/commitment/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejs/company/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejs/company/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejs/harry/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejs/harry/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejs/service/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejs/service/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejs/service/toilet/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejs/service/toilet/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/object/_second_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/object/_second_hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/utility/_font-size.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/utility/_font-size.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/utility/_other.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/utility/_other.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +80,7 @@
   </component>
   <component name="ProjectId" id="1kraPmyZCdF9gOXkrzv4Y5iHdPs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="2" id="追加" />
   </component>
   <component name="ProjectViewState">
@@ -62,7 +101,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -121,8 +160,8 @@
       <workItem from="1607062252604" duration="6214000" />
       <workItem from="1607301510783" duration="362000" />
       <workItem from="1607497228891" duration="650000" />
-      <workItem from="1607914967871" duration="13862000" />
-      <workItem from="1608037194788" duration="3060000" />
+      <workItem from="1607914967871" duration="13958000" />
+      <workItem from="1608078144039" duration="25055000" />
     </task>
     <task id="LOCAL-00001" summary="あ">
       <created>1606543726016</created>
@@ -153,23 +192,5 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="あ" />
     <option name="LAST_COMMIT_MESSAGE" value="あ" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1388" height="156" key="GridCell.Tab.0.bottom" timestamp="1608037299934">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1388" height="156" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608037299934" />
-    <state width="1388" height="156" key="GridCell.Tab.0.center" timestamp="1608037299932">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1388" height="156" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1608037299932" />
-    <state width="1388" height="156" key="GridCell.Tab.0.left" timestamp="1608037299927">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1388" height="156" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1608037299927" />
-    <state width="1388" height="156" key="GridCell.Tab.0.right" timestamp="1608037299933">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1388" height="156" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1608037299933" />
   </component>
 </project>

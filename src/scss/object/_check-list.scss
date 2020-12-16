@@ -1,0 +1,14 @@
+.check-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+  &__item {
+    flex: 1 1 auto;
+    padding: .5rem 0;
+    border-bottom: 2px dotted #eee;
+    flex-basis: 48%;
+    max-width: 48%;
+  }
+}

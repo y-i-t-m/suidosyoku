@@ -6,20 +6,26 @@
             <h2 class="second_hero__title">水道職人のこだわり</h2>
         </div>
     </div>
-    <section>
+    <section class="_pt-80 _pb-80">
         <div class="container">
-            <h3><span></span></h3>
-            <img src="../../img/commintment/gallery.png" width="1143" height="255" alt="">
-            <p>身のまわりで発生する水道管からの漏水、トイレ・お風呂・洗面所でのつまりや蛇口からの水漏れといったトラブルは、日常生活と密接に結びついているからこそ、起こると大変な不便を強いられる事になります。そんな時に頼りになる水道職人のプロとして、私たちは以下の3つのこだわりとお約束で、皆様の水まわりのトラブルに対応いたします。</p>
+            <h3 class="_c-main _fwb _fz-40 _pl-80 _pr-80 _t-center">
+                おおさか水道職人は大阪市に拠点を持ち、水まわりで起こるあらゆるトラブルに<span>年中無休で対応可能</span>な<br><span
+                        class="_fz-48 _d-inline-block -wavy">水道修理のプロ集団</span>です。
+            </h3>
+            <div class="_mt-32">
+                <img src="../../img/commintment/gallery.png" width="1143" height="255" alt="">
+            </div>
+            <p class="_fwb _fz-18 _mt-32 _lh-2 _ls-200 _pl-96 _pr-96">
+                身のまわりで発生する水道管からの漏水、トイレ・お風呂・洗面所でのつまりや蛇口からの水漏れといったトラブルは、日常生活と密接に結びついているからこそ、起こると大変な不便を強いられる事になります。そんな時に頼りになる水道職人のプロとして、私たちは以下の3つのこだわりとお約束で、皆様の水まわりのトラブルに対応いたします。</p>
         </div>
     </section>
-    <section>
+    <section class="_bg-main _pt-80 _pb-80">
         <div class="container">
             <% const sec1s = [
                 {
                     thumbnail: "../img/top_sec01_thumb1.jpg",
                     numberImg: "../img/bubble_01.png",
-                    heading: "../img/heading01",
+                    heading: "../img/commintment/heading01.png",
                     btnText: "サービスの一覧はこちら",
                     btnLink: "/",
                     content: "身のまわりで起きる水トラブルは実に様々です。各現場それぞれにトラブルの内容やご使用されている水栓機器も異なります。おおさか水道職人のサービススタッフは、全員が厳しい研修をクリアした自社スタッフのため、水まわりに関する豊富な知識や経験を持ち、蛇口からの水漏れやトイレつまりの他、給水管・給湯管工事一式、給湯器や井戸ポンプの交換など、水まわりに関する工事なら幅広くご対応させていただきます。"
@@ -27,7 +33,7 @@
                 {
                     thumbnail: "../img/top_sec01_thumb2.jpg",
                     numberImg: "../img/bubble_02.png",
-                    heading: "../img/heading03",
+                    heading: "../img/commintment/heading03.png",
                     btnText: "ご利用の流れはこちら",
                     btnLink: "/",
                     content: "水のトラブルはいつも決まった場所で起きるわけではありません。対応方法はトラブルやご要望の内容によって何通りも存在します。だからこそ、状況に応じた臨機応変な対応や正確な原因特定を大切にし、お客様のホームドクター（かかりつけ医）として、診断から修理まで責任を持って行わせていただきます。<br>トラブル箇所以外にも気になる事がございましたら、その場で無料点検も行っております。"
@@ -35,34 +41,36 @@
                 {
                     thumbnail: "../img/top_sec01_thumb3.jpg",
                     numberImg: "../img/bubble_03.png",
-                    heading: "../img/heading02",
+                    heading: "../img/commintment/heading02.png",
                     btnText: "お客様の声・施工日記",
                     btnLink: "/",
                     content: "水道職人では修理や交換などトラブルの解消だけに留まらず、お客様にとってより快適でライフスタイルにも合った、今後の生活を一番に考えたご提案をさせて頂きます。現在水まわりでお使いの蛇口やトイレなどの水栓機器も、種類や場所を替えるだけで便利で快適な生活を送ることが可能です。ご使用状況や、ご不満に思われている点などをしっかりとヒアリングさせていただき、未来につながるご提案を大切にしております。"
                 }
             ]; %>
             <% sec1s.forEach(sec1 => { %>
-            <div class="sec1_box">
+            <div class="sec1_box _mt-32">
                 <div class="sec1_box__inner">
                     <div class="sec1_box__kodawari">
-                        <img src="../../img/commintment/kodawari.png" width="45" height="362" alt="">
+                        <img class="_w-auto" src="../../img/commintment/kodawari.png" width="45" height="362" alt="">
                     </div>
                     <div class="sec1_box__bubble">
-                        <img src="<%- sec1.numberImg %>" alt="">
+                        <img class="_w-auto" src="<%- sec1.numberImg %>" alt="">
                     </div>
-                    <div class="">
-                        <div class="">
+                    <div class="sec1_box__wrap">
+                        <div class="sec1_box__left">
                             <div class="">
                                 <img src="<%- sec1.heading %>" alt="">
                             </div>
-                            <div class="">
-                                <p><%- sec1.content %></p>
+                            <div class="_mt-16">
+                                <p class="_lh-175"><%- sec1.content %></p>
                             </div>
-                            <div class="">
-                                <a href="<%- sec1.btnLink %>"><%- sec1.btnText %></a>
+                            <div class="_mt-16">
+                                <a class="more-button-rounded -bg-blue-gradient _w-auto _pl-48 _pr-48"
+                                        href="<%- sec1.btnLink %>"><%- sec1.btnText %><span
+                                            class="chevron -more"></span></a>
                             </div>
                         </div>
-                        <div class="">
+                        <div class="sec1_box__right">
                             <img src="<%- sec1.thumbnail %>" alt="">
                         </div>
                     </div>
@@ -71,65 +79,75 @@
             <% }); %>
         </div>
     </section>
-    <section>
+    <section class="_pt-80 _pb-80">
         <div class="container">
             <h3 class="section-heading">皆様へのお約束</h3>
             <% const sec2s = [
                 {
                     headDeco: "お約束01",
                     heading: "お見積りは無料",
-                    content: "いつもおおさか水道職人の修理報告をご覧いただきありがとうございます。[依頼場所] 大阪府〇〇..."
+                    content: "お見積りは全て水道修理のプロスタッフが現場にて直接行わせていただきます。一見しただけではわからないトラブル原因の究明や正確な症状の把握などを丁寧な点検の中で行っていきます。その後、点検内容を元に無料のお見積りをご提示させていただきます。お見積りご確認後の作業になりますので、ご安心ください。"
                 },
                 {
                     headDeco: "お約束02",
                     heading: "365日24時間電話受付",
-                    content: "いつもおおさか水道職人の修理報告をご覧いただきありがとうございます。[依頼場所] 大阪府〇〇..."
+                    content: "水のトラブルの多くが突然発生します。そんな時にいち早く不安を解消できるよう、24時間体制で受付けを行っており、年中無休で駆け付けさせて頂いております。休日や祝日のお伺いでも、料金が割り増しになるということは一切ございませんので、お困りの際にはいつでもご相談ください。"
                 },
                 {
                     headDeco: "お約束03",
-                    heading: "大阪府〇〇〇〇〇〇〇へトイレつまり除去で伺いました。",
-                    content: "いつもおおさか水道職人の修理報告をご覧いただきありがとうございます。[依頼場所] 大阪府〇〇..."
+                    heading: "多様なお支払方法に対応",
+                    content: "「急なトラブルで持ち合わせがない！」そんな時でもまずはトラブルの解決を最優先いただけるよう、作業後の現金支払い以外にも、各種クレジットカードや銀行振込、後日のコンビニ支払いなど多様なお支払方法をご用意しております。ご都合に合わせてお選びいただけます。"
                 },
                 {
                     headDeco: "お約束04",
-                    heading: "大阪府〇〇〇〇〇〇〇へトイレつまり除去で伺いました。",
-                    content: "いつもおおさか水道職人の修理報告をご覧いただきありがとうございます。[依頼場所] 大阪府〇〇..."
+                    heading: "豊富な実績",
+                    content: "水回りトラブルの緊急対応の会社として、数多くの施工・修理実績を積み上げてきました。蛇口の水漏れやトイレのつまりから、井戸ポンプやボイラーの故障まで、身の回りの様々な水トラブルに対応させていただきますので、まずはお気軽にご連絡ください。"
                 },
                 {
                     headDeco: "お約束05",
-                    heading: "大阪府〇〇〇〇〇〇〇へトイレつまり除去で伺いました。",
-                    content: "いつもおおさか水道職人の修理報告をご覧いただきありがとうございます。[依頼場所] 大阪府〇〇..."
+                    heading: "確固たるポリシー",
+                    content: "地域に密着し、地元大阪に暮らす皆様のお困り事やトラブルを解決できる存在になるべく、大阪の常駐したスタッフ一同「お客様のためになること」を第一に考え、日々技術の向上・知識の習得に努めております。"
                 },
                 {
                     headDeco: "お約束06",
-                    heading: "大阪府〇〇〇〇〇〇〇へトイレつまり除去で伺いました。",
-                    content: "いつもおおさか水道職人の修理報告をご覧いただきありがとうございます。[依頼場所] 大阪府〇〇..."
+                    heading: "安心の3年保証",
+                    content: "各種取替製品の初期不良や故障、不具合などございましたら担当スタッフがすぐにご対応させていただきます。施工日から3年間の保証制度もございますので、気になる事がありましたらいつでもお電話ください。"
                 },
                 {
                     headDeco: "お約束07",
-                    heading: "大阪府〇〇〇〇〇〇〇へトイレつまり除去で伺いました。",
-                    content: "いつもおおさか水道職人の修理報告をご覧いただきありがとうございます。[依頼場所] 大阪府〇〇..."
+                    heading: "安心の3年保証り",
+                    content: "修繕作業を行うための技術や知識はもちろん、挨拶や礼儀・マナーもきちんと教育しております。気持ち良いコミュニケーションを行い、一度きりのお仕事に留まらず「また困った時には来てほしい」そう思っていただけるような、気配り・心配りを忘れません。"
                 },
                 {
                     headDeco: "お約束08",
-                    heading: "大阪府〇〇〇〇〇〇〇へトイレつまり除去で伺いました。",
-                    content: "いつもおおさか水道職人の修理報告をご覧いただきありがとうございます。[依頼場所] 大阪府〇〇..."
+                    heading: "お見積り後のキャンセルOK",
+                    content: "お見積りのご提示後でも「思っていたより高かった」「もう少し家族と考えたい」など、お見積り内容にご納得いただけない場合はキャンセルされても費用は一切かかりません。作業はお見積り内容にご納得・ご署名をいただかなければ行うことがございません。ご安心ください。"
                 }
             ]; %>
             <% sec2s.forEach(sec2 => { %>
-            <div class="sec2_box">
+            <div class="sec2_box _mt-40">
                 <div class="sec2_box__head">
-                    <div class="head-deco">
-                        <img class="_w-auto" src="../../img/commintment/head_deco.png" width="126" height="64" alt="">
-                        <p class="head-deco__text"><%- sec2.headDeco %></p>
+                    <div class="sec2_box__head-left">
+                        <div class="head-deco">
+                            <img class="_w-auto" src="../../img/commintment/head_deco.png" width="126" height="64"
+                                    alt="">
+                            <p class="head-deco__text _fwb"><%- sec2.headDeco %></p>
+                        </div>
                     </div>
                     <h4 class="sec2_box__heading"><%- sec2.heading %></h4>
                 </div>
                 <div class="sec2_box__content">
-                    <p><%- sec2.content %></p>
+                    <p class="_mt-16"><%- sec2.content %></p>
                 </div>
             </div>
             <% }); %>
+            <div class="_mt-96 _pl-80 _pr-80 relative">
+                <p class="_fz-32 _fwb _c-main _t-center">
+                    身のまわりで発生した水道管からの漏水、トイレ・お風呂・洗面所でのつまりや蛇口からの水漏れ、給湯器のトラブル全般でお困りの場合には<br>おおさか水道職人にお任せください。</p>
+                <div class="com-worker">
+                    <img class="_w-auto" src="../../img/commintment/worker2.png" width="136" height="185" alt="">
+                </div>
+            </div>
         </div>
     </section>
 <%- include('../block/_footer', {seo: data.second.seo}); %>

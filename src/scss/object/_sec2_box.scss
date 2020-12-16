@@ -1,0 +1,25 @@
+.sec2_box {
+
+
+  &__head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    &-left {
+      flex-basis: 10%;
+      max-width: 10%;
+    }
+  }
+
+  &__heading {
+    font-weight: 700;
+    font-size: rem(24);
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    border-bottom: 2px solid #eee;
+    flex-basis: 90%;
+    max-width: 90%;
+  }
+}

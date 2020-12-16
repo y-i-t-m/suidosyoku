@@ -1,0 +1,27 @@
+.toilet-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1.5rem 0;
+  border: 6px solid #eee;
+
+  &__list {
+    flex: 1 1 auto;
+
+    &:last-child .toilet-nav__link {
+      border-right: none;
+    }
+  }
+
+  &__link {
+    padding: .5rem 1rem;
+    color: color(main);
+    font-weight: 700;
+    font-size: rem(18);
+    border-right: 2px dotted #eee;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

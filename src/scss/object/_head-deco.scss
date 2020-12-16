@@ -1,0 +1,13 @@
+.head-deco {
+  position: relative;
+  display: inline-block;
+
+  &__text {
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: rem(14);
+  }
+}
