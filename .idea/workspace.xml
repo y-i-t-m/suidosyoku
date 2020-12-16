@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f23cb06a-fd2c-4595-9860-9d2299425905" name="デフォルト変更リスト" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejs/company/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejs/company/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejs/service/toilet/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejs/service/toilet/index.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +124,7 @@
       <workItem from="1607301510783" duration="362000" />
       <workItem from="1607497228891" duration="650000" />
       <workItem from="1607914967871" duration="13958000" />
-      <workItem from="1608078144039" duration="25651000" />
+      <workItem from="1608078144039" duration="26122000" />
     </task>
     <task id="LOCAL-00001" summary="あ">
       <created>1606543726016</created>
