@@ -21,9 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="f23cb06a-fd2c-4595-9860-9d2299425905" name="デフォルト変更リスト" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/ejs/area/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejs/area/index.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ejs/commitment/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejs/commitment/index.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ejs/service/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejs/service/index.ejs" afterDir="false" />
+=======
+>>>>>>> 00d85a0722d542a7079445ddcf3315b8789567f0
       <change beforePath="$PROJECT_DIR$/src/ejs/service/toilet/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejs/service/toilet/index.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +129,7 @@
       <workItem from="1607301510783" duration="362000" />
       <workItem from="1607497228891" duration="650000" />
       <workItem from="1607914967871" duration="13958000" />
-      <workItem from="1608078144039" duration="25055000" />
+      <workItem from="1608078144039" duration="26122000" />
     </task>
     <task id="LOCAL-00001" summary="あ">
       <created>1606543726016</created>
