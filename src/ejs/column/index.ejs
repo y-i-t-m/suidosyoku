@@ -1,0 +1,89 @@
+<%- include('../base/_head', {seo: data.third.seo}); %>
+<%- include('../block/_header', {seo: data.third.seo}); %>
+<main class="l-main">
+    <div class="second_hero">
+        <div class="second_hero__inner">
+            <h2 class="second_hero__title">水のコラム</h2>
+        </div>
+    </div>
+    <section>
+        <div class="container">
+            <p class="_t-center _fwb _pt-80 _pb-80 _fz-20">普段生活している中で”水”は切っても切り離せない大切なものです。<br>ただ水のトラブルはいつ発生するか分かりません。日頃から気を付けておくことや、<br>いざ水のトラブルが起こった際に役立つ情報を「水のコラム」で紹介します。
+            </p>
+        </div>
+    </section>
+    <div class="">
+        <div class="container">
+
+            <% const columns = [
+                {
+                    category: "水まわり",
+                    thumbnail: "",
+                    title: "これで水回りがピカピカに！水垢の効果的な落とし方",
+                    content: "ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト"
+                }, {
+                    category: "水まわり",
+                    thumbnail: "",
+                    title: "これで水回りがピカピカに！水垢の効果的な落とし方",
+                    content: "ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト"
+                }, {
+                    category: "水まわり",
+                    thumbnail: "",
+                    title: "これで水回りがピカピカに！水垢の効果的な落とし方",
+                    content: "ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト"
+                }, {
+                    category: "水まわり",
+                    thumbnail: "",
+                    title: "これで水回りがピカピカに！水垢の効果的な落とし方",
+                    content: "ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト"
+                }, {
+                    category: "水まわり",
+                    thumbnail: "",
+                    title: "これで水回りがピカピカに！水垢の効果的な落とし方",
+                    content: "ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト"
+                }, {
+                    category: "水まわり",
+                    thumbnail: "",
+                    title: "これで水回りがピカピカに！水垢の効果的な落とし方",
+                    content: "ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト"
+                }, {
+                    category: "水まわり",
+                    thumbnail: "",
+                    title: "これで水回りがピカピカに！水垢の効果的な落とし方",
+                    content: "ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト"
+                }, {
+                    category: "水まわり",
+                    thumbnail: "",
+                    title: "これで水回りがピカピカに！水垢の効果的な落とし方",
+                    content: "ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト"
+                }, {
+                    category: "水まわり",
+                    thumbnail: "",
+                    title: "これで水回りがピカピカに！水垢の効果的な落とし方",
+                    content: "ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト"
+                }, {
+                    category: "水まわり",
+                    thumbnail: "",
+                    title: "これで水回りがピカピカに！水垢の効果的な落とし方",
+                    content: "ダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキストダミーテキスト"
+                }
+            ]; %>
+            <% columns.forEach(column => { %>
+            <div class="column-box">
+                <div class="column-meta">
+                    <a href="" class="label"><%- column.category %></a>
+                </div>
+                <div class="">
+                    <div class="">
+                        <img src="<%- column.thumbnail %>" alt="">
+                    </div>
+                    <div class="">
+                        <h3><%- column.title %></h3>
+                        <p><%- column.content %></p>
+                    </div>
+                </div>
+            </div>
+            <% }); %>
+        </div>
+    </div>
+<%- include('../block/_footer', {seo: data.third.seo}); %>

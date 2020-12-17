@@ -10,5 +10,9 @@
     border-bottom: 2px dotted #eee;
     flex-basis: 48%;
     max-width: 48%;
+    @include breakpoint-down(md) {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
   }
 }

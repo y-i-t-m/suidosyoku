@@ -2,6 +2,9 @@
   background-color: #fff;
   position: relative;
   padding: 4rem;
+  @include breakpoint-down(md) {
+    padding: 1.5rem;
+  }
 
 
   &__bubble {
@@ -14,19 +17,34 @@
     position: absolute;
     left: -1%;
     top: 15%;
+    width: 45px;
+    @include breakpoint-down(md) {
+      left: -4%;
+      width: 40px;
+    }
   }
 
   &__wrap {
     display: flex;
     flex-wrap: wrap;
+    @include breakpoint-down(md) {
+      flex-direction: column;
+    }
   }
 
   &__left {
     flex: 1 1 0;
+    @include breakpoint-down(md) {
+      order: 2;
+    }
   }
 
   &__right {
     flex: 1 1 0;
     padding-left: 5%;
+    @include breakpoint-down(md) {
+      order: 1;
+      padding-left: 0;
+    }
   }
 }

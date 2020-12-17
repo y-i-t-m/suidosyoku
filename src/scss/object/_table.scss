@@ -1,8 +1,31 @@
 .table-cell {
   padding: .75rem;
+
+  &.-orange {
+    background-color: color(orange-sub);
+  }
+
+  &.-small {
+    width: 240px;
+  }
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.table-main {
+  @include breakpoint-down(md) {
+    width: 640px !important;
+  }
 }
 
 .table-main td,
 .table-main thead {
   border: 1px solid color(main);
+}
+
+.table-main.-orange td,
+.table-main.-orange thead {
+  border: 1px solid color(orange-main);
 }

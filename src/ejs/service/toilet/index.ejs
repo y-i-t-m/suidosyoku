@@ -8,13 +8,15 @@
     </div>
     <section>
         <div class="container">
-            <div class="bg-toilet relative">
-                <div class="">
-                    <img class="_w-auto" src="../../../img/toilet/icon01.png" width="36" height="36" alt="">
+            <div class="bg-toilet relative _mt-80">
+                <div class="toilet-icon">
+                    <img class="_w-auto" src="../../../img/icon_toilet.png" width="72" height="72" alt="">
                 </div>
-                <div class="_pl-96 _pr-96">
-                    <h2>トイレの水漏れ・つまり・トラブル<br>何でもご相談ください！</h2>
-                    <div class="harry-box _mt-40">
+                <div class="_pl-ml-96 _pr-ml-96 relative">
+                    <h2 class="_t-center _fwb _fz-32 _fz-md-56 _lh-1 _c-main _pt-64"><span class="_fz-48 _fz-md-64">トイレ</span><span
+                                class="_fz-24 _fz-md-40">の</span><span class="_c-yellow2">水漏れ・つまり・トラブル</span><br><span
+                                class="_fz-40 _fz-md-48">何でもご相談ください！</span></h2>
+                    <div class="harry-box _mt-40 _bg-white">
                         <h2 class="harry-head">こんな<span class="_c-yellow">トラブル</span>が起きたらおおさか水道職人へ！</h2>
                         <div class="harry-box__inner">
                             <ul class="check-list">
@@ -36,7 +38,7 @@
                                     }
                                 ]; %>
                                 <% lists.forEach(list => { %>
-                                <li class="check-list__item _fwb"><img class="_w-auto _d-inline-block _mr-8"
+                                <li class="check-list__item _fwb _fz-14 _fz-md-16"><img class="_w-auto _d-inline-block _mr-8"
                                             src="../../../img/check.png" width="16" height="12" alt=""><%- list.list %>
                                 </li>
                                 <% }); %>
@@ -44,17 +46,19 @@
                             <p class="_t-right _fwb">など</p>
                         </div>
                     </div>
-                    <p class="_mt-24 _ls-150">
-                        トイレのトラブルで一番多くいただくご相談は、トイレのつまりです。原因の多くに、トイレットペーパーの流し過ぎや水に溶けないティッシュペーパーや残飯などの異物を流してしまったことがあげられます。<br>
-                        また、トイレタンク内など部品の劣化による水漏れも多く発生しています。水漏れと言ってもその原因は様々あり、対応方法も異なります。<br>
-                        トラブル原因がわからない、ご自身での対応が難しいと感じた時には、いつでも水道修理のプロ集団「おおさか水道職人」にお任せください。</p>
                 </div>
+            </div>
+            <div class="_pl-ml-96 _pr-ml-96">
+                <p class="_mt-160 _ls-150">
+                    トイレのトラブルで一番多くいただくご相談は、トイレのつまりです。原因の多くに、トイレットペーパーの流し過ぎや水に溶けないティッシュペーパーや残飯などの異物を流してしまったことがあげられます。<br>
+                    また、トイレタンク内など部品の劣化による水漏れも多く発生しています。水漏れと言ってもその原因は様々あり、対応方法も異なります。<br>
+                    トラブル原因がわからない、ご自身での対応が難しいと感じた時には、いつでも水道修理のプロ集団「おおさか水道職人」にお任せください。</p>
             </div>
         </div>
     </section>
-    <section>
+    <section class="_pt-40">
         <div class="container">
-            <div class="_pl-96 _pr-96">
+            <div class="_pl-ml-96 _pr-ml-96">
                 <div class="">
                     <ul class="toilet-nav">
                         <% const navs = [
@@ -85,21 +89,22 @@
                 </div>
                 <section class="_pt-80 _pb-80">
                     <h2 class="section-heading">トイレの料金表</h2>
-                    <h3 class="section-sub-heading">トイレ（水漏れ）の料金表</h3>
-                    <p>タンク内の水が止まらない、便器に流れているという場合には、タンク内の部品の劣化による故障が疑われます。<br>
-                        また、パイプのつなぎ目や便器と床との接続部分から水が漏れてきている時には、被害の拡大を防ぐためにもトイレタンク側にある止水栓を締めることが大切です。水漏れを放置してしまうと、最悪の場合床板を腐らせてしまったり、階下漏水にもつながりますので、いつでもお電話にてご相談ください
+                    <h3 class="section-sub-heading _mt-24 _mb-24">トイレ（水漏れ）の料金表</h3>
+                    <p class="_lh-175 _ls-100"><span class="_fwb">タンク内の水が止まらない、便器に流れている</span>という場合には、タンク内の部品の劣化による故障が疑われます。<br>また、<span
+                                class="_fwb">パイプのつなぎ目や便器と床との接続部分から水が漏れてきている</span>時には、被害の拡大を防ぐためにもトイレタンク側にある止水栓を締めることが大切です。水漏れを放置してしまうと、最悪の場合床板を腐らせてしまったり、階下漏水にもつながりますので、いつでもお電話にてご相談ください
                     </p>
-                    <table class="_w-full table-main">
+                    <div class="overflow-auto">
+                    <table class="_w-full table-main _mt-24">
                         <thead>
                         <tr>
-                            <th colspan="3" class="_t-center _c-main _fwb table-cell">作業料金 ＋ 出張費 ＋ 材料費</th>
+                            <th colspan="3" class="_t-center _c-main _fwb table-cell _bg-skyblue">作業料金 ＋ 出張費 ＋ 材料費</th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr class="_t-center _fwb">
-                            <td class="table-cell">施工内容</td>
-                            <td class="table-cell">施工料金</td>
-                            <td class="table-cell">出張料金</td>
+                            <td class="table-cell _bg-skyblue">施工内容</td>
+                            <td class="table-cell _bg-skyblue">施工料金</td>
+                            <td class="table-cell _bg-skyblue">出張料金</td>
                         </tr>
                         <tr>
                             <td class="table-cell">フロートバルブ交換</td>
@@ -124,71 +129,262 @@
                         </tr>
                         </tbody>
                     </table>
-                    <tablez>
-                        <thead>
+                    </div>
+                    <div class="overflow-auto">
+                        <table class="_w-full table-main -orange _mt-24">
+                            <thead>
+                            <tr>
+                                <th colspan="2" class="table-cell -orange _t-center _fwb _c-orange-main">トイレ（水漏れ）の事例
+                                </th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td class="table-cell -orange -small _fwb">事例内容</td>
+                                <td class="table-cell">流した後も水が止まらない</td>
+                            </tr>
+                            <tr>
+                                <td class="table-cell -orange _fwb">所要時間</td>
+                                <td class="table-cell">35分</td>
+                            </tr>
+                            <tr>
+                                <td class="table-cell -orange _fwb">解決方法</td>
+                                <td class="table-cell">フロートバルブ交換</td>
+                            </tr>
+                            <tr>
+                                <td class="table-cell -orange _fwb">解決までの流れ</td>
+                                <td class="table-cell">
+                                    現場を確認すると、フロートバルブの劣化によりできた隙間から水が漏れてきており、止まらなくなってきておりました。部品の交換をご提案し、ご納得いただきましたのですぐに作業を行いました。
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="table-cell -orange _fwb">施工料金</td>
+                                <td class="table-cell">7,000円</td>
+                            </tr>
+                            <tr>
+                                <td class="table-cell -orange _fwb">出張費用</td>
+                                <td class="table-cell">3,000円</td>
+                            </tr>
+                            <tr>
+                                <td class="table-cell -orange _fwb">特別値引</td>
+                                <td class="table-cell">WEBを見たで2,000円オフ</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+                <section>
+                    <h3 class="section-sub-heading _mb-24">トイレ（つまり）の料金表</h3>
+                    <p class="_lh-175">
+                        <span class="_fwb">水を流しても流れていかず溢れて来る</span>時にはトイレのつまりが考えられます。原因の多くはトイレットペーパーの流し過ぎが考えられますが、排水管自体がつまっているときや便器の劣化によってもつまりが起きることがあります。無理に水を流すと便器から溢れてしまう可能性もございますので、お困りの際には水道職人までご連絡ください。
+                    </p>
+                    <div class="overflow-auto">
+                    <table class="_w-full table-main _mt-24">
                         <tr>
-                            <th>トイレ（水漏れ）の事例</th>
+                            <td class="table-cell _t-center _fwb _c-main _bg-skyblue">低度つまり</td>
+                            <td colspan="2" class="table-cell _t-center _fwb _c-main _bg-skyblue">基本料金＋出張費</td>
                         </tr>
-                        </thead>
-                        <tbody>
                         <tr>
-                            <td>事業内容</td>
-                            <td>流した後も水が止まらない</td>
-                        </tr>
-                        <tr>
-                            <td>所要時間</td>
-                            <td>35分</td>
-                        </tr>
-                        <tr>
-                            <td>解決方法</td>
-                            <td>フロートバルブ交換</td>
-                        </tr>
-                        <tr>
-                            <td>解決までの流れ</td>
-                            <td>
-                                現場を確認すると、フロートバルブの劣化によりできた隙間から水が漏れてきており、止まらなくなってきておりました。部品の交換をご提案し、ご納得いただきましたのですぐに作業を行いました。
+                            <td class="table-cell _t-center _fwb _c-main _bg-skyblue">中度つまり</td>
+                            <td rowspan="2" colspan="2" class="table-cell _t-center _fwb _c-main _bg-skyblue">基本料金
+                                5,000円 ＋ 作業料金 ＋ 出張費
                             </td>
                         </tr>
                         <tr>
-                            <td>施工料金</td>
-                            <td>7,000円</td>
+                            <td class="table-cell _t-center _fwb _c-main _bg-skyblue">高度つまり</td>
                         </tr>
                         <tr>
-                            <td>出張費用</td>
-                            <td>3,000円</td>
+                            <td class="table-cell _t-center _fwb _bg-skyblue">施工内容</td>
+                            <td class="table-cell _t-center _fwb _bg-skyblue">施工料金</td>
+                            <td class="table-cell _t-center _fwb _bg-skyblue">出張内容</td>
                         </tr>
                         <tr>
-                            <td>特別値引</td>
-                            <td>WEBを見たで2,000円オフ</td>
-                        </tr>
-                        </tbody>
-                    </tablez>
-                </section>
-                <section>
-                    <h3 class="section-sub-heading">トイレ（つまり）の料金表</h3>
-                    <p>水を流しても流れていかず溢れて来る時にはトイレのつまりが考えられます。原因の多くはトイレットペーパーの流し過ぎが考えられますが、排水管自体がつまっているときや便器の劣化によってもつまりが起きることがあります。無理に水を流すと便器から溢れてしまう可能性もございますので、お困りの際には水道職人までご連絡ください。
-                    </p>
-                    <table>
-                        <tr>
-                            <td>低度つまり</td>
-                            <td>基本料金＋出張費</td>
-                        </tr>
-                        <tr>
-                            <td>中度つまり</td>
-                            <td rowspan="2">基本料金 5,000円 ＋ 作業料金 ＋ 出張費</td>
-                        </tr>
-                        <tr>
-                            <td>高度つまり</td>
+                            <td class="table-cell">薬品洗浄（基本料金に含む）</td>
+                            <td class="table-cell _t-center">¥5,000〜</td>
+                            <td class="table-cell _t-center">¥3,000 / 出張1回</td>
                         </tr>
                     </table>
+                    </div>
+                    <div class="overflow-auto">
+                        <table class="_w-full table-main -orange _mt-24">
+                            <thead>
+                            <tr>
+                                <th colspan="2" class="table-cell -orange _t-center _fwb _c-orange-main">トイレ（つまり）の事例
+                                </th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td class="table-cell -orange -small _fwb">事例内容</td>
+                                <td class="table-cell">トイレつまり</td>
+                            </tr>
+                            <tr>
+                                <td class="table-cell -orange _fwb">所要時間</td>
+                                <td class="table-cell">40分</td>
+                            </tr>
+                            <tr>
+                                <td class="table-cell -orange _fwb">解決方法</td>
+                                <td class="table-cell">薬品を使用してつまり除去</td>
+                            </tr>
+                            <tr>
+                                <td class="table-cell -orange _fwb">解決までの流れ</td>
+                                <td class="table-cell">
+                                    トイレットペーパー以外は何も流されていないとのことで、薬品使用をご提案し作業を行いました。軽度なつまりだったため、薬品洗浄でつまりの除去ができました。到着から40分で作業完了です。
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="table-cell -orange _fwb">施工料金</td>
+                                <td class="table-cell">5,000円</td>
+                            </tr>
+                            <tr>
+                                <td class="table-cell -orange _fwb">出張費用</td>
+                                <td class="table-cell">3,000円</td>
+                            </tr>
+                            <tr>
+                                <td class="table-cell -orange _fwb">特別値引</td>
+                                <td class="table-cell">WEBを見たで2,000円オフ</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </section>
             </div>
         </div>
     </section>
-    <section class="_pb-80">
+    <section class="_pt-80 _pb-80">
         <div class="container">
-            <div class="_pl-96 _pr-96">
+            <div class="_pl-ml-96 _pr-ml-96">
                 <h2 class="section-heading">ご利用の流れ</h2>
+                <% const flows = [
+                    {
+                        head: "受付",
+                        thumbnail: "../../../img/toilet/img04.jpg",
+                        content: "突然の水漏れやトイレのつまりなど、水のトラブルが起きた時には、<span class='_fwb'>24時間365日いつでも</span>「0120-492-315」までお電話ください。",
+                        step: "STEP.01"
+                    },
+                    {
+                        head: "お見積り",
+                        thumbnail: "../../../img/toilet/img01.jpg",
+                        content: "お客様から伺った内容を確認し、水まわりのプロスタッフが<span class='_fwb'>最短30分～1時間で駆け付け</span>ます。到着後は、しっかりと原因の究明を行わせていただきます。蛇口からの水漏れ、排水のつまり、トイレの修理など多様なトラブルに対応可能です。",
+                        step: "STEP.02"
+                    },
+                    {
+                        head: "出張・点検",
+                        thumbnail: "../../../img/toilet/img02.jpg",
+                        content: "点検結果をもとに、修理費用・内容を明確に記載した<span class='_fwb'>無料のお見積もり</span>をご提示いたします。作業やご説明内容に不明点がございましたら、遠慮なく担当スタッフにご相談ください。<span class='_fwb'>お見積り内容にご納得・ご署名いただかなければ修理は行いません。</span>",
+                        step: "STEP.03"
+                    },
+                    {
+                        head: "修理",
+                        thumbnail: "../../../img/toilet/img03.jpg",
+                        content: "弊社の熟練スタッフが、迅速かつ丁寧なトラブル解決を行ってまいります。作業後は修理箇所をお客様にご確認いただき作業完了とし、費用のお支払いとなります。お支払い方法は現金・クレジットカード・銀行振込・コンビニ決済がお選びいただけます。",
+                        step: "STEP.04"
+                    }
+                ]; %>
+                <div class="">
+                    <% flows.forEach(flow => { %>
+                    <div class="toilet-box">
+                        <div class="toilet-box__thumbnail">
+                            <img src="<%- flow.thumbnail %>" alt="">
+                        </div>
+                        <div class="toilet-box__body">
+                            <h3 class="toilet-box__head"><span class="_fwb _c-main"><%- flow.step %></span><span
+                                        class="_fz-24 _d-inline-block _ml-16"><%- flow.head %></span></h3>
+                            <p class="toilet-box__content"><%- flow.content %></p>
+                        </div>
+                    </div>
+                    <% }); %>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="_pl-ml-96 _pr-ml-96">
+                <h2 class="section-heading">お客様の声</h2>
+                <div class="l-grid-ml _mt-32">
+                    <% const voices = [
+                        {
+                            head: "トイレタンクの水漏れ",
+                            content: "タンク内から常にする水音が気になって点検に来てもらったのですが、原因の説明も分かりやすくその場で作業ができるとのことなのでお願いしました。水音もしなくなり快適に使用できています。"
+                        },
+                        {
+                            head: "トイレのつまり",
+                            content: "突然つまりを起こしてしまい、慌ててお電話しました。初めての業者だったので少し不安でしたが、漢字の良い作業員さんが来てくれたので安心してお任せできました。"
+                        }, {
+                            head: "便器と床の隙間から水漏れ",
+                            content: "実際にダメになった部品を見せてくれながらしっかりと説明してくれたので、納得してお願いすることができました。最後には綺麗に床を拭いてくれ、その心遣いにも感動しました。"
+                        }, {
+                            head: "トイレのつまり",
+                            content: "お電話から40分かからず来てくれました。自分でやっても全く抜けなかったつまりが、少しの時間で抜けてしまったのでやっぱりプロだなと思いました。急いでいたので助かりました。"
+                        }
+                    ]; %>
+                    <% voices.forEach(voice => { %>
+                    <div class="l-grid-ml__cell -col-md-6">
+                        <div class="toilet-box2">
+                            <div class="_d-flex items-center">
+                                <div class="">
+                                    <img src="../../../img/toilet/icon.png" alt="">
+                                </div>
+                                <div class="_ml-16">
+                                    <p class="_fz-14 _fwb">トラブル内容</p>
+                                    <h3 class="_c-main _fz-20"><%- voice.head %></h3>
+                                </div>
+                            </div>
+                            <p class="_ls-150 _lh-175 _mt-16"><%- voice.content %></p>
+                        </div>
+                    </div>
+                    <% }); %>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="_pb-80 _pt-80">
+        <div class="container">
+            <div class="toilet-box3">
+                <h2 class="_t-center _c-main _fz-24 _fwb">サービス内容</h2>
+                <div class="_mt-24">
+                    <div class="l-grid-ml">
+                        <% const services = [
+                            {
+                                head: "トイレ<br>の水漏れ・つまり",
+                                icon: "../../../img/toilet/icon01.png"
+                            }, {
+                                head: "キッチン<br>の水漏れ・つまり",
+                                icon: "../../../img/toilet/icon02.png"
+                            }, {
+                                head: "お風呂<br>の水漏れ・つまり",
+                                icon: "../../../img/toilet/icon03.png"
+                            }, {
+                                head: "洗面所<br>の水漏れ・つまり",
+                                icon: "../../../img/toilet/icon04.png"
+                            }, {
+                                head: "給湯器ポンプ<br>のトラブル",
+                                icon: "../../../img/toilet/icon05.png"
+                            }, {
+                                head: "排水口・排水管<br>の水漏れ・つまり",
+                                icon: "../../../img/toilet/icon06.png"
+                            }, {
+                                head: "屋外・水栓柱<br>の水漏れ・つまり",
+                                icon: "../../../img/toilet/icon07.png"
+                            },
+                        ]; %>
+                        <% services.forEach(service => { %>
+                        <div class="l-grid-ml__cell -col-md-6 -col-ml-4 -col-lg-3">
+                            <a href="" class="service-box">
+                                <div class="_d-flex items-center">
+                                    <div class="">
+                                        <img src="<%- service.icon %>" alt="">
+                                    </div>
+                                    <div class="">
+                                        <h3 class="_c-main _pl-8 _fwb _ls-100"><%- service.head %></h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <% }); %>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

@@ -1,6 +1,7 @@
 .harry-box {
   border-radius: 8px;
   border: 4px solid color(main);
+  position: relative;
 
   &__inner {
     padding: 1.5rem;
