@@ -1,0 +1,41 @@
+.quest-box {
+  padding: 2rem;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  @include breakpoint-down(md) {
+    padding: 1rem;
+  }
+
+  &__title {
+    font-size: rem(18);
+    color: color(main);
+    font-weight: 700;
+    padding-bottom: 1rem;
+    border-bottom: 2px dotted #eee;
+
+    h3 {
+      padding-left: 1rem;
+      @include breakpoint-down(md) {
+        padding-left: 0;
+        margin-top: 1rem;
+      }
+    }
+  }
+
+  &__body {
+    @include breakpoint-down(md) {
+      margin-top: 1.5rem;
+    }
+  }
+
+  &__content {
+    padding-top: 1.5rem;
+    flex-basis: 90%;
+    max-width: 90%;
+    padding-left: 2%;
+    @include breakpoint-down(md) {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+  }
+}

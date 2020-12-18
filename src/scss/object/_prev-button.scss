@@ -1,0 +1,21 @@
+.prev-button {
+  position: relative;
+  display: inline-block;
+  padding: .5rem 2.5rem;
+  border: 3px solid #eee;
+  border-radius: 999px;
+  font-weight: 700;
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(-45deg);
+    left: 8%;
+    width: .7rem;
+    height: .7rem;
+    border-top: 2px solid #333;
+    border-left: 2px solid #333;
+  }
+}

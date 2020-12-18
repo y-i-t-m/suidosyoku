@@ -1,0 +1,299 @@
+<%- include('../../base/_head', {seo: data.third.seo}); %>
+<%- include('../../block/_header', {seo: data.third.seo}); %>
+<main class="l-main">
+    <div class="second_hero">
+        <div class="second_hero__inner">
+            <h2 class="second_hero__title">大阪市の水漏れ・つまり・故障</h2>
+        </div>
+    </div>
+    <section>
+        <div class="container">
+            <div class="_pl-ml-96 _pr-ml-96 _mt-64">
+                <p class="_fwb _fz-18">大阪市で、トイレやお風呂場、台所や洗面台など水回りトラブルでお困りの方は、おおさか水道職人にご連絡ください。</p>
+                <p class="_mt-24 _lh-175 _ls-100">
+                    トイレや排水のつまり、蛇口や水道管からの水漏れなど、大阪市で発生した様々な水のトラブルに対応できるのが、おおさか水道職人です。高い技術力と豊富な知識で、水のトラブルをすぐに解決いたします！排水管のつまりや水漏れが発生するタイミングは予期しずらいものですが、放っておいてしまうと被害が大きくなる可能性もございますので早めの対応が重要になります。急なトラブルでも、地元大阪に常駐したスタッフだからできるスピード対応で、いち早く安心をお届けいたします。作業内容やお見積金額は必ず作業の前にわかりやすくご説明・ご提案し、内容に納得いただいた場合にのみ作業を行いますので、勝手に作業を行ったり、お見積り以外の料金を請求することはありません。また、年中無休で駆けつけ対応を行っていおりますが、深夜早朝・休日祝日のお伺いでも割増料金などは一切かかりません。水まわりのお困りごとは、お気軽に「おおさか水道職人」までご相談ください。 </p>
+            </div>
+            <div class="_d-none _d-md-block _mt-40">
+                <img src="../../img/harry-banner.png" width="1020" height="165" alt="">
+            </div>
+            <div class="_pl-ml-96 _pr-ml-96 _mt-40">
+                <ul class="toilet-nav">
+                    <% const navs = [
+                        {
+                            head: "よくあるご質問",
+                            link: "#"
+                        },
+                        {
+                            head: "お客様の声",
+                            link: "#"
+                        },
+                        {
+                            head: "対応地域一覧",
+                            link: "#"
+                        },
+                        {
+                            head: "市の水道修理対応について",
+                            link: "#"
+                        }, {
+                            head: "市の水道施設の耐震化に関する情報",
+                            link: "#"
+                        }, {
+                            head: "市の水道関連助成金・貸付金制度",
+                            link: "#"
+                        },
+                    ]; %>
+                    <% navs.forEach(nav => { %>
+                    <li class="toilet-nav__list"><a class="toilet-nav__link"
+                                href="<%- nav.link %>"><img class="_w-auto _d-inline-block _pr-8"
+                                    src="../../img/toilet/chevron-bottom.png" width="20" height="20"
+                                    alt=""><%- nav.head %></a></li>
+                    <% }); %>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="_pt-80 _pb-80">
+        <div class="container">
+            <div class="_pl-ml-96 _pr-ml-96">
+                <h2 class="section-heading">よくあるご質問</h2>
+                <dl>
+                    <% const questions = [
+                        {
+                            q: "トイレタンクの中からずっと水音がします。",
+                            a: "タンク内の部品に不具合が出ており、タンク内に給水され続けている可能性がございます。便器内への水漏れや水が溜まらないなどのトラブルは、部品の交換によって解決できることも多いので、まずはお気軽にご相談ください。"
+                        },
+                        {
+                            q: "作業の前の費用の詳しい説明はありますか？。",
+                            a: "もちろんです。トラブル原因・作業内容・費用の詳しい説明は必ず作業前に行わせていただき、無料でお見積りをご提示します。お客様のご納得・ご了承をいただいた後の作業開始となりますので、安心してご依頼ください。"
+                        },
+                        {
+                            q: "相談の電話は何時にかけても大丈夫ですか？。",
+                            a: "365日24時間体制で受付を行っておりますので、水まわりトラブルに困った時は、いつでもお気軽にお電話ください。メールでのご相談は、「お急ぎの方はこちら」の問い合わせフォームにて承っております。"
+                        }
+                    ]; %>
+                    <% questions.forEach(question => { %>
+                    <div class="quest-box _mt-24">
+                        <dt class="quest-box__title">
+                            <div class="_d-flex flex-wrap items-center">
+                                <div class="circle-number -spell">Q</div>
+                                <h3><%- question.q %></h3>
+                            </div>
+                        </dt>
+                        <dd class="quest-box__body">
+                            <div class="_d-flex flex-wrap items-center">
+                                <div class="circle-number -spell -orange">A</div>
+                                <p class="quest-box__content"><%- question.a %></p>
+                            </div>
+                        </dd>
+                    </div>
+                    <% }); %>
+                </dl>
+                <div class="_mt-24 _t-center _t-md-right">
+                    <a class="more-button-rounded _w-auto _pl-48 _pr-48 -bg-blue-gradient" href="">よくあるご質問の一覧はこちら<span
+                                class="chevron -more"></span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="_pl-ml-96 _pr-ml-96">
+                <h2 class="section-heading">お客様の声</h2>
+                <div class="l-grid-ml _mt-32">
+                    <% const voices = [
+                        {
+                            head: "排水管洗浄",
+                            address: "大阪府大阪市平野区西脇",
+                            content: "家全体の排水の流れが悪く、臭いも気になったので排管を徹底的に洗浄して頂きました。結構な個所をお願いしたので大変だったかと思いますが、作業後は排水口の流れもよくなり臭いも気にならなくなりました！"
+                        },
+                        {
+                            head: "ウォシュレット水漏れ",
+                            address: "大阪府大阪市淀川区塚本",
+                            content: "ウォシュレットのノズルから水もれするようになりお世話になりました。ネットで検索してみると見積り無料で割引の文字を見て電話しました。駆けつけは早く、スタッフの方はとても感じが良かったです。新しく替えてもらったウォシュレットも快適に使用しています。"
+                        }, {
+                            head: "台所蛇口水漏れ",
+                            address: "大阪府大阪市都島区毛馬町",
+                            content: "シンク下を掃除しているときに水漏れに気づいて慌てて電話しました。初めての水道業者で不安もありましたが、作業員さんの人柄も良く説明も実際の写真を使って見せてくれたりと、とても丁寧な対応をしていただきました。"
+                        }, {
+                            head: "浴室排水つまり",
+                            address: "大阪府大阪市大正区泉尾",
+                            content: "浴室の排水の流れが悪く、水が溜まるたびに引くまで待って…とすごく面倒なので、電話した中で一番駆けつけの早かった水道職人さんにお願いしました。薬品で洗浄していただくとあっという間に流れがよくなり感激しました！お手入れのコツも教えてもらえて得した気分です。"
+                        }
+                    ]; %>
+                    <% voices.forEach(voice => { %>
+                    <div class="l-grid-ml__cell -col-md-6">
+                        <div class="toilet-box2">
+                            <div class="_d-flex items-center">
+                                <div class="">
+                                    <img src="../../img/toilet/icon.png" alt="">
+                                </div>
+                                <div class="_ml-16">
+                                    <p class="_fz-14 _fwb"><%- voice.address %></p>
+                                    <h3 class="_c-main _fz-20"><%- voice.head %></h3>
+                                </div>
+                            </div>
+                            <p class="_ls-150 _lh-175 _mt-16"><%- voice.content %></p>
+                        </div>
+                    </div>
+                    <% }); %>
+                </div>
+                <div class="_mt-24 _t-center _t-md-right">
+                    <a class="more-button-rounded _w-auto _pl-48 _pr-48 -bg-blue-gradient" href="">お客様の声・施工日記<span
+                                class="chevron -more"></span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="_pt-80 _pb-80">
+        <div class="container">
+            <div class="_pl-ml-96 _pr-ml-96">
+                <h3 class="section-heading">対応地域一覧</h3>
+                <p class="_mb-24 _mt-24">
+                    おおさか水道職人では、水道・水栓（蛇口）からの水漏れ、トイレのつまり・水漏れ、ウォシュレットの水漏れ、ウォシュレットの交換や、排水口のつまり、悪臭・異臭などお客様の水まわりのトラブルからメンテナンスまで幅広く対応しています。</p>
+                <h4 class="section-sub-heading _mt-24 _mb-24">大阪市 - あ行</h4>
+                <% const areasA = [
+                    "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名"
+                ]; %>
+                <ul class="l-grid-ml">
+                    <% areasA.forEach(areaA => { %>
+                    <li class="l-grid-ml__cell -col-6 -col-ml-4 -col-lg-3"><a href=""><span
+                                    class="_t-under"><%- areaA %></span></a></li>
+                    <% }); %>
+                </ul>
+                <h4 class="section-sub-heading _mt-24 _mb-24">大阪市 - か行</h4>
+                <% const areasK = [
+                    "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名"
+                ]; %>
+                <ul class="l-grid-ml">
+                    <% areasK.forEach(areaK => { %>
+                    <li class="l-grid-ml__cell -col-6 -col-ml-4 -col-lg-3"><a href=""><span
+                                    class="_t-under"><%- areaK %></span></a></li>
+                    <% }); %>
+                </ul>
+                <h4 class="section-sub-heading _mt-24 _mb-24">大阪市 - さ行</h4>
+                <% const areasS = [
+                    "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名"
+                ]; %>
+                <ul class="l-grid-ml">
+                    <% areasS.forEach(areaS => { %>
+                    <li class="l-grid-ml__cell -col-6 -col-ml-4 -col-lg-3"><a href=""><span
+                                    class="_t-under"><%- areaS %></span></a></li>
+                    <% }); %>
+                </ul>
+                <h4 class="section-sub-heading _mt-24 _mb-24">大阪市 - た行</h4>
+                <% const areasT = [
+                    "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名"
+                ]; %>
+                <ul class="l-grid-ml">
+                    <% areasT.forEach(areaT => { %>
+                    <li class="l-grid-ml__cell -col-6 -col-ml-4 -col-lg-3"><a href=""><span
+                                    class="_t-under"><%- areaT %></span></a></li>
+                    <% }); %>
+                </ul>
+                <h4 class="section-sub-heading _mt-24 _mb-24">大阪市 - な行</h4>
+                <% const areasN = [
+                    "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名"
+                ]; %>
+                <ul class="l-grid-ml">
+                    <% areasN.forEach(areaN => { %>
+                    <li class="l-grid-ml__cell -col-6 -col-ml-4 -col-lg-3"><a href=""><span
+                                    class="_t-under"><%- areaN %></span></a></li>
+                    <% }); %>
+                </ul>
+                <h4 class="section-sub-heading _mt-24 _mb-24">大阪市 - は行</h4>
+                <% const areasH = [
+                    "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名"
+                ]; %>
+                <ul class="l-grid-ml">
+                    <% areasH.forEach(areaH => { %>
+                    <li class="l-grid-ml__cell -col-6 -col-ml-4 -col-lg-3"><a href=""><span
+                                    class="_t-under"><%- areaH %></span></a></li>
+                    <% }); %>
+                </ul>
+                <h4 class="section-sub-heading _mt-24 _mb-24">大阪市 - ま行</h4>
+                <% const areasM = [
+                    "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名"
+                ]; %>
+                <ul class="l-grid-ml">
+                    <% areasM.forEach(areaM => { %>
+                    <li class="l-grid-ml__cell -col-6 -col-ml-4 -col-lg-3"><a href=""
+                                class="_t-under"><span><%- areaM %></span></a></li>
+                    <% }); %>
+                </ul>
+                <h4 class="section-sub-heading _mt-24 _mb-24">大阪市 - や行</h4>
+                <% const areasY = [
+                    "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名", "地域名"
+                ]; %>
+                <ul class="l-grid-ml">
+                    <% areasY.forEach(areaY => { %>
+                    <li class="l-grid-ml__cell -col-6 -col-ml-4 -col-lg-3"><a href=""><span
+                                    class="_t-under"><%- areaY %></span></a></li>
+                    <% }); %>
+                </ul>
+                <div class="_mt-80">
+                    <h3 class="section-heading">市の水道修理対応について</h3>
+                    <p class="_mb-24 _mt-24 _lh-175">
+                        池田市の水道修繕工事店は、地域密着型が大きな特徴のひとつです。池田市上下水道局から指定を受けた店舗は、「地元修繕店」の名称で親しまれています。水回りで何か不具合があったとき、出張から点検、さらに見積書の作成まで無料で行ってくれる店舗は少なくありません。おおさか水道職人を含む専門業者の多くは長年にわたる実績があり、池田市内で蛇口の水漏れ・トイレのつまり・水道管の破損など各種の水トラブルが発生した際には速やかに対応してくれます。</p>
+                    <h3 class="section-heading">市の水道施設の耐震化に関する情報</h3>
+                    <p class="_mb-24 _mt-24 _lh-175">
+                        水道施設は、市民生活にとって重要なライフラインのひとつです。池田市は大規模な地震が発生したときでも、上下水道の保全管理は不可欠と考えています。安心・安全な水を滞りなく供給するだけでなく、下水処理も維持しなければなりません。そのため池田市の上下水道局では、各施設の耐震性を強化するとともにバックアップ体制の整備にも努めています。これらの危機管理対策により、水道施設の安全性はさらに向上すると見込まれています。</p>
+                    <h3 class="section-heading">市の水道関連助成金・貸付金制度</h3>
+                    <p class="_mt-24 _lh-175">
+                        池田市は、各家庭にトイレの水洗化を普及するための助成金・貸付金の制度を導入しています。交付対象となる項目は、水洗便所改造工事、あるいは共同排水設備や低地汚水ポンプ設備の設置工事です。具体的な助成・貸付金額は、工事内容ごとに細かく区分されています。また交付を受ける際は「家屋の所有者またはその同意を得た使用者である」など、貸付金は「池田市に居住の連帯保証人をたてられる」といった要件を満たす必要があります。</p>
+                </div>
+                <div class="_t-center _mt-40">
+                    <a href="" class="prev-button">対応エリア一覧に戻る</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="_pb-80">
+        <div class="container">
+            <div class="toilet-box3">
+                <h2 class="_t-center _c-main _fz-24 _fwb">サービス内容</h2>
+                <div class="_mt-24">
+                    <div class="l-grid-ml">
+                        <% const services = [
+                            {
+                                head: "トイレ<br>の水漏れ・つまり",
+                                icon: "../../img/toilet/icon01.png"
+                            }, {
+                                head: "キッチン<br>の水漏れ・つまり",
+                                icon: "../../img/toilet/icon02.png"
+                            }, {
+                                head: "お風呂<br>の水漏れ・つまり",
+                                icon: "../../img/toilet/icon03.png"
+                            }, {
+                                head: "洗面所<br>の水漏れ・つまり",
+                                icon: "../../img/toilet/icon04.png"
+                            }, {
+                                head: "給湯器ポンプ<br>のトラブル",
+                                icon: "../../img/toilet/icon05.png"
+                            }, {
+                                head: "排水口・排水管<br>の水漏れ・つまり",
+                                icon: "../../img/toilet/icon06.png"
+                            }, {
+                                head: "屋外・水栓柱<br>の水漏れ・つまり",
+                                icon: "../../img/toilet/icon07.png"
+                            },
+                        ]; %>
+                        <% services.forEach(service => { %>
+                        <div class="l-grid-ml__cell -col-md-6 -col-ml-4 -col-lg-3">
+                            <a href="" class="service-box">
+                                <div class="_d-flex items-center">
+                                    <div class="">
+                                        <img src="<%- service.icon %>" alt="">
+                                    </div>
+                                    <div class="">
+                                        <h3 class="_c-main _pl-8 _fwb _ls-100"><%- service.head %></h3>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <% }); %>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<%- include('../../block/_footer', {seo: data.third.seo}); %>

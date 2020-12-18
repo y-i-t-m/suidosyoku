@@ -1,11 +1,14 @@
 .second_hero {
 
   &__inner {
-    background-image: url("../../img/commintment/hero.jpg");
+    background-image: url("../img/commintment/hero.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    padding: 5rem 0;
+    padding: 7% 0;
+    @include breakpoint-down(md) {
+      padding: 5rem 0;
+    }
   }
 
   &__title {
